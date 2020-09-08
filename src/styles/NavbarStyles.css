@@ -1,3 +1,23 @@
-.yuntest {
-  background-color: turquoise;
+.main {
+  background-color: rgba(254, 254, 254, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px 10vw;
+}
+
+.navbar-lewagon {
+  justify-content: space-between;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+a {
+  color: rgba(20, 15, 73, 1) !important;
+}
+
+a:hover {
+  color: rgba(53, 161, 205, 1) !important;
 }

@@ -1,6 +1,14 @@
 import sizes from './MediaSizes';
 
 export default {
+  MainDiv: {
+    margin: 'auto',
+    width: '80%',
+    '& h3': {
+      color: 'rgba(20, 15, 73, 1)',
+    },
+  },
+
   //   ColorBox: {
   //     width: "20%",
   //     height: props => (props.showingFullPalette ? "25%" : "50%"),

@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
-// import -something-, { -something- } from './-something-';
+import { withStyles } from '@material-ui/styles';
 import styles from './styles/MainStyles'; // make a CSS file for this component..
+// import classes from '*.module.css';
+// import -something-, { -something- } from './-something-';
 // import { Route, Switch, NavLink } from 'react-router-dom';
 
 // import { v4 as uuidv4 } from 'uuid'; // for creating unique IDs with uuidv4();
@@ -32,15 +34,14 @@ class Main extends Component {
 
   render() {
     return (
-      <div className='Main'>
+      <div className={this.props.classes.Main}>
         <Navbar />
-        <h1>Yun's Portfolio Coming Soon...</h1>
-        <h6>Testing App Component...</h6>
-
-        <h1>This is the Main component...</h1>
+        <div className={this.props.classes.MainDiv}>
+          <h3>Portfolio Coming Soon...</h3>
+        </div>
       </div>
     );
   }
 }
 
-export default Main; /// connect this component to App.js...
+export default withStyles(styles)(Main); /// connect this component to App.js...
