@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Main from './Main';
 // import { Route, Switch, NavLink } from 'react-router-dom';
 // import -something-, { -something- } from './-something-';
 import './App.css';
@@ -9,7 +10,7 @@ class App extends Component {
       <div className='App'>
         <h1>Yun's Portfolio Coming Soon...</h1>
         <h6>Testing App Component...</h6>
-        {/* <-something- /> */}
+        <Main />
 
         {/* <NavLink exact activeClassName="active-link" to="/-something-">-some-text-here-</NavLink> */}
 
