@@ -8,9 +8,8 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <h1>Yun's Portfolio Coming Soon...</h1>
-        <h6>Testing App Component...</h6>
-        <Main />
+        <h1>Portfolio Coming Soon...</h1>
+        {/* <Main /> */}
 
         {/* <NavLink exact activeClassName="active-link" to="/-something-">-some-text-here-</NavLink> */}
 

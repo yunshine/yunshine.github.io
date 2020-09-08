@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from './Navbar';
 // import -something-, { -something- } from './-something-';
 import styles from './styles/MainStyles'; // make a CSS file for this component..
 // import { Route, Switch, NavLink } from 'react-router-dom';
@@ -32,6 +33,7 @@ class Main extends Component {
   render() {
     return (
       <div className='Main'>
+        <Navbar />
         <h1>Yun's Portfolio Coming Soon...</h1>
         <h6>Testing App Component...</h6>
 
