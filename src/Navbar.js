@@ -34,7 +34,9 @@ class Navbar extends Component {
   render() {
     return (
       <div class='navbar navbar-expand-sm navbar-light navbar-lewagon main'>
-        <a class='navbar-brand' href='#'></a>
+        <a class='navbar-brand' href='#'>
+          Logo Placeholder
+        </a>
         <button
           class='navbar-toggler'
           type='button'
@@ -59,10 +61,43 @@ class Navbar extends Component {
                 Work
               </a>
             </li>
-            <li class='nav-item'>
-              <a class='nav-link' href='#'>
+
+            <li class='nav-item dropdown'>
+              <a
+                href='#'
+                class='nav-link dropdown-toggle'
+                id='navbarDropdown'
+                data-toggle='dropdown'
+                aria-haspopup='true'
+                aria-expanded='false'
+              >
                 Contact
               </a>
+              <div
+                class='dropdown-menu dropdown-menu-right'
+                aria-labelledby='navbarDropdown'
+              >
+                <div class='contact-dropdown-link'>
+                  <a class='dropdown-item' href='#'>
+                    <i class='far fa-envelope'> yun.chung@mac.com</i>
+                  </a>
+                </div>
+
+                <div class='contact-dropdown-link'>
+                  <a
+                    class='dropdown-item'
+                    href='https://www.linkedin.com/in/yunchungio/'
+                  >
+                    <i class='fab fa-linkedin'> Linked In</i>
+                  </a>
+                </div>
+
+                <div class='contact-dropdown-link'>
+                  <a class='dropdown-item' href='https://github.com/yunshine'>
+                    <i class='fab fa-github'> Github</i>
+                  </a>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
