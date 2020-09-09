@@ -11,11 +11,12 @@ class Main extends Component {
     return (
       <div className={this.props.classes.Main}>
         <Navbar />
-        <Home />
+        {/* <Home />
         <Work />
-        <About />
+        <About /> */}
         <div className={this.props.classes.MainDiv}>
-          {/* <h3>Portfolio Coming Soon...</h3> */}
+          <i class='fas fa-tools'></i>
+          <h3>Portfolio Under Construction...</h3>
         </div>
       </div>
     );

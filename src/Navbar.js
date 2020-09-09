@@ -10,7 +10,7 @@ class Navbar extends Component {
     return (
       <div class='navbar navbar-expand-sm navbar-light navbar-lewagon main'>
         <a class='navbar-brand' href='#'>
-          Logo Placeholder
+          "Logo"
         </a>
         <button
           class='navbar-toggler'
@@ -53,7 +53,7 @@ class Navbar extends Component {
                 aria-labelledby='navbarDropdown'
               >
                 <div class='contact-dropdown-link'>
-                  <a class='dropdown-item' href='#'>
+                  <a class='dropdown-item' href='mailto:yun.chung@mac.com'>
                     <i class='far fa-envelope'> yun.chung@mac.com</i>
                   </a>
                 </div>

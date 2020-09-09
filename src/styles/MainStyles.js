@@ -5,9 +5,19 @@ export default {
     margin: 'auto',
   },
   MainDiv: {
+    margin: 'auto',
+    marginTop: '120px',
     width: '80%',
+    textAlign: 'center',
     '& h3': {
-      color: 'rgba(20, 15, 73, 1)',
+      margin: 'auto',
+      color: 'orange',
+      fontSize: '80px',
+    },
+    '& i': {
+      margin: 'auto',
+      color: 'orange',
+      fontSize: '240px',
     },
   },
 
