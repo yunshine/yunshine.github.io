@@ -30,8 +30,10 @@ class Home extends Component {
     return (
       <div className={classes.Home}>
         <div className={classes.HomeLeft}>
-          <h1>This is the Home component...</h1>
-          <h2>Here is some H2 text...</h2>
+          <h2>
+            <span className={classes.Blue}>Hello.</span> I'm a full stack web
+            developer.
+          </h2>
         </div>
         <div className={classes.HomeRight}>
           <h1>This is the right side of the home component...</h1>

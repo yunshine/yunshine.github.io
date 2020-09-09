@@ -37,6 +37,16 @@ class Navbar extends Component {
               </a>
             </li>
 
+            {/* <li class='nav-item'>
+              <a
+                class='nav-link'
+                href='../public/YunChungCV.pdf'
+                download='YunChungCV'
+              >
+                CV
+              </a>
+            </li> */}
+
             <li class='nav-item dropdown'>
               <a
                 href='#'
