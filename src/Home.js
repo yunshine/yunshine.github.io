@@ -31,9 +31,20 @@ class Home extends Component {
       <div className={classes.Home}>
         <div className={classes.HomeLeft}>
           <h2>
-            <span className={classes.Blue}>Hello.</span> I'm a full stack web
-            developer.
+            <span className={classes.BlueH2}>Hello.</span>
           </h2>
+          <h2>I'm a full stack</h2>
+          <h2>web developer</h2>
+          <h5>
+            My name is <span className={classes.BlueH5}>Yun</span>, and I help
+            turn ideas into high-quality web-based solutions.
+          </h5>
+          <a className={classes.emailButton} href='mailto:yun.chung@mac.com'>
+            <div>
+              <i class='far fa-envelope'> </i>
+              <h6>yun.chung@mac.com</h6>
+            </div>
+          </a>
         </div>
         <div className={classes.HomeRight}>
           <h1>This is the right side of the home component...</h1>
