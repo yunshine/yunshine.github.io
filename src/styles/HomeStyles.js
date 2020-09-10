@@ -37,9 +37,25 @@ export default {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    '& i': {
+      color: 'red',
+    },
     '& li': {
       listStyleType: 'none',
+      '& i': {
+        color: 'red',
+      },
     },
+  },
+  HomeRightTitleText: {
+    color: 'black',
+    fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
+    fontSize: '32px',
+  },
+  liText: {
+    color: 'teal',
+    fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
+    fontWeight: 'normal',
   },
   BlueH2: {
     color: 'rgba(53,161,205,1)',

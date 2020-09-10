@@ -55,36 +55,56 @@ class Home extends Component {
         </div>
         <div className={classes.HomeRight}>
           <div className={classes.HomeRightTitle}>
-            <i class='fab fa-dev'> Skills</i>
+            <i class='fab fa-dev'>
+              <span className={classes.HomeRightTitleText}> Skills</span>
+            </i>
           </div>
           <div className={classes.HomeRightTitle}>
             <ul>
               <li>
-                <i class='devicon-react-original'> React</i>
+                <i class='devicon-react-original'>
+                  <span className={classes.liText}> React</span>
+                </i>
               </li>
               <li>
-                <i class='devicon-javascript-plain'> Javascript</i>
+                <i class='devicon-javascript-plain'>
+                  <span className={classes.liText}> Javascript</span>
+                </i>
               </li>
               <li>
-                <i class='devicon-rails-plain'> Ruby on Rails</i>
+                <i class='devicon-rails-plain'>
+                  <span className={classes.liText}> Ruby on Rails</span>
+                </i>
               </li>
               <li>
-                <i class='devicon-ruby-plain'> Ruby</i>
+                <i class='devicon-ruby-plain'>
+                  <span className={classes.liText}> Ruby</span>
+                </i>
               </li>
               <li>
-                <i class='devicon-html5-plain'> HTML</i>
+                <i class='devicon-html5-plain'>
+                  <span className={classes.liText}> HTML</span>
+                </i>
               </li>
               <li>
-                <i class='devicon-css3-plain'> CSS</i>
+                <i class='devicon-css3-plain'>
+                  <span className={classes.liText}> CSS</span>
+                </i>
               </li>
               <li>
-                <i class='fas fa-palette'> Material-UI</i>
+                <i class='fas fa-palette'>
+                  <span className={classes.liText}> Material-UI</span>
+                </i>
               </li>
               <li>
-                <i class='devicon-bootstrap-plain'> Bootstrap</i>
+                <i class='devicon-bootstrap-plain'>
+                  <span className={classes.liText}> Bootstrap</span>
+                </i>
               </li>
               <li>
-                <i class='fas fa-database'> SQL & PostgreSQL</i>
+                <i class='fas fa-database'>
+                  <span className={classes.liText}> SQL & PostgreSQL</span>
+                </i>
               </li>
             </ul>
           </div>
