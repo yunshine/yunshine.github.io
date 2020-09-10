@@ -54,8 +54,40 @@ class Home extends Component {
           </a> */}
         </div>
         <div className={classes.HomeRight}>
-          <h1>This is the right side of the home component...</h1>
-          <i class='fas fa-layer-group'></i>
+          <div className={classes.HomeRightTitle}>
+            <i class='fas fa-layer-group'> Skills</i>
+          </div>
+          <div className={classes.HomeRightTitle}>
+            <ul>
+              <li>
+                <i class='fas fa-layer-group'> React</i>
+              </li>
+              <li>
+                <i class='fas fa-layer-group'> Javascript</i>
+              </li>
+              <li>
+                <i class='fas fa-layer-group'> Ruby on Rails</i>
+              </li>
+              <li>
+                <i class='fas fa-layer-group'> Ruby</i>
+              </li>
+              <li>
+                <i class='fas fa-layer-group'> HTML</i>
+              </li>
+              <li>
+                <i class='fas fa-layer-group'> CSS</i>
+              </li>
+              <li>
+                <i class='fas fa-layer-group'> Material-UI</i>
+              </li>
+              <li>
+                <i class='fas fa-layer-group'> Bootstrap</i>
+              </li>
+              <li>
+                <i class='fas fa-layer-group'> SQL</i>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     );

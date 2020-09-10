@@ -5,7 +5,7 @@ export default {
     margin: 'auto',
     // height: '64vh',
     width: '80%',
-    border: '1px solid red',
+    // border: '1px solid red',
     display: 'flex',
     marginTop: '16px',
     marginBottom: '32px',
@@ -32,6 +32,14 @@ export default {
   HomeRight: {
     width: '40%',
     border: '1px solid black',
+  },
+  HomeRightTitle: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    '& li': {
+      listStyleType: 'none',
+    },
   },
   BlueH2: {
     color: 'rgba(53,161,205,1)',
