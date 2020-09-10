@@ -37,17 +37,25 @@ class Home extends Component {
           <h2>web developer</h2>
           <h5>
             My name is <span className={classes.BlueH5}>Yun</span>, and I help
-            turn ideas into high-quality web-based solutions.
+            turn ideas into high-quality web-based products.
           </h5>
-          <a className={classes.emailButton} href='mailto:yun.chung@mac.com'>
-            <div>
-              <i class='far fa-envelope'> </i>
-              <h6>yun.chung@mac.com</h6>
+          <div className={classes.emailButtonDiv}>
+            <a className={classes.emailButton} href='mailto:yun.chung@mac.com'>
+              Email Me
+            </a>
+            <h6>Got a project? Shoot me an email!</h6>
+          </div>
+          {/* <div>
+              <i class='far fa-envelope'></i>
             </div>
-          </a>
+            <div>
+              <h6>Email</h6>
+            </div>
+          </a> */}
         </div>
         <div className={classes.HomeRight}>
           <h1>This is the right side of the home component...</h1>
+          <i class='fas fa-layer-group'></i>
         </div>
       </div>
     );

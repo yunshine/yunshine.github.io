@@ -3,7 +3,7 @@ import sizes from './MediaSizes';
 export default {
   Home: {
     margin: 'auto',
-    height: '64vh',
+    // height: '64vh',
     width: '80%',
     border: '1px solid red',
     display: 'flex',
@@ -19,8 +19,8 @@ export default {
   HomeLeft: {
     width: '60%',
     // border: '1px solid black',
-    marginTop: '16vh',
-    marginBottom: '32px',
+    marginTop: '160px',
+    paddingBottom: '80px',
     '& h2': {
       lineHeight: '95%',
     },
@@ -65,6 +65,29 @@ export default {
     },
     [sizes.down('xs')]: {
       fontSize: '8px',
+    },
+  },
+  emailButtonDiv: {
+    textAlign: 'center',
+    marginTop: '48px',
+    '& h6': {
+      marginTop: '24px',
+      fontWeight: '400',
+    },
+  },
+  emailButton: {
+    background: 'rgba(246,101,101,1)',
+    color: 'rgba(254, 254, 254, 1) !important',
+    padding: '16px 20%',
+    width: '50%',
+    transition: 'all 0.3s',
+    borderRadius: '4px',
+    '&:hover': {
+      cursor: 'pointer',
+      textDecoration: 'none',
+      color: 'rgba(254, 254, 254, 1) !important',
+      background: 'rgba(246,101,101, 0.90)',
+      boxShadow: '4px 4px 240px 1px rgba(150, 150, 150, 0.24)',
     },
   },
 };
