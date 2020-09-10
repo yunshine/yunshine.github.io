@@ -55,36 +55,36 @@ class Home extends Component {
         </div>
         <div className={classes.HomeRight}>
           <div className={classes.HomeRightTitle}>
-            <i class='fas fa-layer-group'> Skills</i>
+            <i class='fab fa-dev'> Skills</i>
           </div>
           <div className={classes.HomeRightTitle}>
             <ul>
               <li>
-                <i class='fas fa-layer-group'> React</i>
+                <i class='devicon-react-original'> React</i>
               </li>
               <li>
-                <i class='fas fa-layer-group'> Javascript</i>
+                <i class='devicon-javascript-plain'> Javascript</i>
               </li>
               <li>
-                <i class='fas fa-layer-group'> Ruby on Rails</i>
+                <i class='devicon-rails-plain'> Ruby on Rails</i>
               </li>
               <li>
-                <i class='fas fa-layer-group'> Ruby</i>
+                <i class='devicon-ruby-plain'> Ruby</i>
               </li>
               <li>
-                <i class='fas fa-layer-group'> HTML</i>
+                <i class='devicon-html5-plain'> HTML</i>
               </li>
               <li>
-                <i class='fas fa-layer-group'> CSS</i>
+                <i class='devicon-css3-plain'> CSS</i>
               </li>
               <li>
-                <i class='fas fa-layer-group'> Material-UI</i>
+                <i class='fas fa-palette'> Material-UI</i>
               </li>
               <li>
-                <i class='fas fa-layer-group'> Bootstrap</i>
+                <i class='devicon-bootstrap-plain'> Bootstrap</i>
               </li>
               <li>
-                <i class='fas fa-layer-group'> SQL</i>
+                <i class='fas fa-database'> SQL & PostgreSQL</i>
               </li>
             </ul>
           </div>
