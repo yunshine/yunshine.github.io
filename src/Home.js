@@ -59,7 +59,7 @@ class Home extends Component {
               <span className={classes.HomeRightTitleText}> Skills</span>
             </i>
           </div>
-          <div className={classes.HomeRightTitle}>
+          <div className={classes.HomeRightTitleList}>
             <ul>
               <li>
                 <i class='devicon-react-original'>

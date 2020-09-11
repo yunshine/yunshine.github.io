@@ -38,13 +38,20 @@ export default {
     justifyContent: 'center',
     alignItems: 'center',
     '& i': {
-      color: 'red',
+      color: 'orange',
+      fontSize: '40px',
+    },
+  },
+  HomeRightTitleList: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    '& i': {
+      color: 'brown',
+      fontSize: '30px',
     },
     '& li': {
       listStyleType: 'none',
-      '& i': {
-        color: 'red',
-      },
     },
   },
   HomeRightTitleText: {
@@ -54,6 +61,7 @@ export default {
   },
   liText: {
     color: 'teal',
+    fontSize: '16px',
     fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
     fontWeight: 'normal',
   },
