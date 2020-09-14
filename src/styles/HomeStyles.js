@@ -15,6 +15,14 @@ export default {
       fontWeight: '600',
       color: 'rgba(20, 15, 73, 1)',
     },
+    [sizes.down('sm')]: {
+      margin: 'auto',
+      display: 'block',
+    },
+    [sizes.down('xs')]: {
+      margin: 'auto',
+      display: 'block',
+    },
   },
   HomeLeft: {
     width: '60%',
@@ -28,10 +36,26 @@ export default {
       fontWeight: '300',
       marginTop: '32px',
     },
+    [sizes.down('sm')]: {
+      margin: 'auto',
+      width: '80%',
+    },
+    [sizes.down('xs')]: {
+      margin: 'auto',
+      width: '80%',
+    },
   },
   HomeRight: {
     width: '40%',
     border: '1px solid black',
+    [sizes.down('sm')]: {
+      width: '80%',
+      margin: 'auto',
+    },
+    [sizes.down('xs')]: {
+      width: '80%',
+      margin: 'auto',
+    },
   },
   HomeRightTitle: {
     display: 'flex',
@@ -64,6 +88,18 @@ export default {
     fontSize: '16px',
     fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
     fontWeight: 'normal',
+  },
+  testDiv: {
+    border: '1px solid black',
+    padding: '8px 0px',
+    '& i': {
+      color: 'purple',
+      fontSize: '32px',
+    },
+    '& span': {
+      color: 'purple',
+      fontSize: '32px',
+    },
   },
   BlueH2: {
     color: 'rgba(53,161,205,1)',

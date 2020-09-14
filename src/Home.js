@@ -108,6 +108,11 @@ class Home extends Component {
               </li>
             </ul>
           </div>
+          <div className={classes.testDiv}>
+            <i class='devicon-react-original'>
+              <span className={classes.liText}>React</span>
+            </i>
+          </div>
         </div>
       </div>
     );
