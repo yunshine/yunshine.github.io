@@ -15,7 +15,7 @@ export default {
       fontWeight: '600',
       color: 'rgba(20, 15, 73, 1)',
     },
-    [sizes.down('sm')]: {
+    [sizes.down('md')]: {
       margin: 'auto',
       marginTop: '24px',
       display: 'block',
@@ -26,7 +26,7 @@ export default {
         fontSize: '22px',
       },
     },
-    [sizes.down('xs')]: {
+    [sizes.down('sm')]: {
       margin: 'auto',
       marginTop: '24px',
       display: 'block',
@@ -50,28 +50,32 @@ export default {
       fontWeight: '300',
       marginTop: '32px',
     },
+    [sizes.down('md')]: {
+      margin: 'auto',
+      width: '80%',
+      paddingBottom: '28px',
+    },
     [sizes.down('sm')]: {
       margin: 'auto',
       width: '80%',
-    },
-    [sizes.down('xs')]: {
-      margin: 'auto',
-      width: '80%',
+      paddingBottom: '0px',
     },
   },
   HomeRight: {
     marginTop: '160px',
-    paddingTop: '16px',
+    padding: '16px 0px',
     width: '40%',
-    // border: '1px solid rgba(20,15,73,.3)',
     borderRadius: '2px',
-    [sizes.down('sm')]: {
+    [sizes.down('md')]: {
       width: '80%',
       margin: 'auto',
+      border: '1px solid rgba(20,15,73,.3)',
     },
-    [sizes.down('xs')]: {
-      width: '80%',
+    [sizes.down('sm')]: {
+      width: '100%',
       margin: 'auto',
+      marginTop: '32px',
+      border: '1px solid rgba(20,15,73,.3)',
     },
   },
   HomeRightTitle: {
@@ -152,10 +156,10 @@ export default {
     // [sizes.down('md')]: {
     //   fontSize: '14px',
     // },
-    [sizes.down('sm')]: {
+    [sizes.down('md')]: {
       fontSize: '72px',
     },
-    [sizes.down('xs')]: {
+    [sizes.down('sm')]: {
       fontSize: '72px',
     },
   },
@@ -169,10 +173,10 @@ export default {
     // [sizes.down('md')]: {
     //   fontSize: '14px',
     // },
-    [sizes.down('sm')]: {
+    [sizes.down('md')]: {
       fontSize: '34px',
     },
-    [sizes.down('xs')]: {
+    [sizes.down('sm')]: {
       fontSize: '30px',
     },
   },
