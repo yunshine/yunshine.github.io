@@ -62,7 +62,7 @@ class Home extends Component {
 
           <div className={classes.skillsListRow}>
             <div className={classes.skillsListBox}>
-              <div className={classes.devicon}>
+              <div className={classes.deviconDiv}>
                 <i class='devicon-react-original'></i>
               </div>
               <span className={classes.liText}>React</span>
@@ -111,16 +111,18 @@ class Home extends Component {
               <span className={classes.liText}> Bootstrap</span>
             </div>
             <div className={classes.skillsListBox}>
-              <i class='fas fa-palette'>
-                <span className={classes.liText}> Material-UI</span>
-              </i>
+              <div>
+                <i class='fas fa-palette'></i>
+              </div>
+              <span className={classes.liText}> Material-UI</span>
             </div>
           </div>
           <div className={classes.skillsListRow}>
             <div className={classes.skillsListBox}>
-              <i class='fas fa-database'>
-                <span className={classes.liText}> SQL & PostgreSQL</span>
-              </i>
+              <div>
+                <i class='fas fa-database'></i>
+              </div>
+              <span className={classes.liText}> SQL & PostgreSQL</span>
             </div>
           </div>
         </div>

@@ -46,8 +46,11 @@ export default {
     },
   },
   HomeRight: {
+    marginTop: '160px',
+    paddingTop: '16px',
     width: '40%',
-    border: '1px solid black',
+    // border: '1px solid rgba(20,15,73,.3)',
+    borderRadius: '2px',
     [sizes.down('sm')]: {
       width: '80%',
       margin: 'auto',
@@ -61,8 +64,9 @@ export default {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    marginBottom: '8px',
     '& i': {
-      color: 'orange',
+      color: 'rgba(246,101,101,1)',
       fontSize: '40px',
     },
   },
@@ -79,9 +83,10 @@ export default {
     },
   },
   HomeRightTitleText: {
-    color: 'black',
+    color: 'rgba(20,15,73,1)',
     fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
     fontSize: '32px',
+    fontWeight: '500',
   },
   liText: {
     color: 'teal',
@@ -92,35 +97,35 @@ export default {
   skillsListRow: {
     padding: '8px 0px',
     display: 'flex',
-    // justifyContent: 'space-around',
     justifyContent: 'space-evenly',
     alignItems: 'center',
-    // '& i': {
-    //   color: 'purple',
-    //   fontSize: '24px',
-    //   margin: '48px 0px 0px 0px  !important',
-    // },
-    // '& span': {
-    //   color: 'purple',
-    //   fontSize: '24px',
-    // },
   },
   skillsListBox: {
-    border: '1px solid rgba(20,15,73,.6)',
+    border: '1px solid rgba(20,15,73,.5)',
+    borderRadius: '2px',
     width: '44%',
     display: 'flex',
     justifyContent: 'start',
     alignItems: 'center',
     padding: '8px 4px 4px 8px',
+    transition: 'all .1s ease-in-out',
     '& i': {
       marginRight: '8px',
-      color: 'rgba(53,161,205,1)',
-      fontSize: '24px',
+      color: 'rgba(246,101,101,1)',
+      color: ' rgba(20,15,73,.5)',
+      color: 'rgba(53,161,205, 0.75)',
+      // color: 'rgba(88,206,255,1)',
+
+      fontSize: '22px',
     },
     '& span': {
       color: 'rgba(20,15,73,1)',
-      fontSize: '20px',
-      fontWeight: '500',
+      fontSize: '16px',
+      fontWeight: '400',
+    },
+    '&:hover': {
+      transform: 'scale(1.05)',
+      background: 'rgba(254, 254, 254, 1)',
     },
   },
   BlueH2: {
