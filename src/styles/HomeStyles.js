@@ -89,9 +89,13 @@ export default {
     fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
     fontWeight: 'normal',
   },
-  testDiv: {
+  skillsListRow: {
     border: '1px solid black',
     padding: '8px 0px',
+    display: 'flex',
+    // justifyContent: 'space-around',
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
     '& i': {
       color: 'purple',
       fontSize: '32px',
@@ -100,6 +104,10 @@ export default {
       color: 'purple',
       fontSize: '32px',
     },
+  },
+  skillsListBox: {
+    border: '1px solid red',
+    width: '44%',
   },
   BlueH2: {
     color: 'rgba(53,161,205,1)',

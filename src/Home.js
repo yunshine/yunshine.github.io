@@ -59,7 +59,7 @@ class Home extends Component {
               <span className={classes.HomeRightTitleText}> Skills</span>
             </i>
           </div>
-          <div className={classes.HomeRightTitleList}>
+          {/* <div className={classes.HomeRightTitleList}>
             <ul>
               <li>
                 <i class='devicon-react-original'>
@@ -107,11 +107,61 @@ class Home extends Component {
                 </i>
               </li>
             </ul>
+          </div> */}
+          <div className={classes.skillsListRow}>
+            <div className={classes.skillsListBox}>
+              <i class='devicon-react-original'>
+                <span className={classes.liText}>React</span>
+              </i>
+            </div>
+            <div className={classes.skillsListBox}>
+              <i class='devicon-javascript-plain'>
+                <span className={classes.liText}> Javascript</span>
+              </i>
+            </div>
           </div>
-          <div className={classes.testDiv}>
-            <i class='devicon-react-original'>
-              <span className={classes.liText}>React</span>
-            </i>
+          <div className={classes.skillsListRow}>
+            <div className={classes.skillsListBox}>
+              <i class='devicon-rails-plain'>
+                <span className={classes.liText}> Ruby on Rails</span>
+              </i>
+            </div>
+            <div className={classes.skillsListBox}>
+              <i class='devicon-ruby-plain'>
+                <span className={classes.liText}> Ruby</span>
+              </i>
+            </div>
+          </div>
+          <div className={classes.skillsListRow}>
+            <div className={classes.skillsListBox}>
+              <i class='devicon-html5-plain'>
+                <span className={classes.liText}> HTML</span>
+              </i>
+            </div>
+            <div className={classes.skillsListBox}>
+              <i class='devicon-css3-plain'>
+                <span className={classes.liText}> CSS</span>
+              </i>
+            </div>
+          </div>
+          <div className={classes.skillsListRow}>
+            <div className={classes.skillsListBox}>
+              <i class='devicon-bootstrap-plain'>
+                <span className={classes.liText}> Bootstrap</span>
+              </i>
+            </div>
+            <div className={classes.skillsListBox}>
+              <i class='fas fa-palette'>
+                <span className={classes.liText}> Material-UI</span>
+              </i>
+            </div>
+          </div>
+          <div className={classes.skillsListRow}>
+            <div className={classes.skillsListBox}>
+              <i class='fas fa-database'>
+                <span className={classes.liText}> SQL & PostgreSQL</span>
+              </i>
+            </div>
           </div>
         </div>
       </div>
