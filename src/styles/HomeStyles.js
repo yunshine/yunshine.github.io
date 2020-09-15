@@ -28,7 +28,14 @@ export default {
     },
     [sizes.down('xs')]: {
       margin: 'auto',
+      marginTop: '24px',
       display: 'block',
+      '& h2': {
+        fontSize: '40px',
+      },
+      '& h5': {
+        fontSize: '20px',
+      },
     },
   },
   HomeLeft: {
@@ -149,7 +156,7 @@ export default {
       fontSize: '72px',
     },
     [sizes.down('xs')]: {
-      fontSize: '8px',
+      fontSize: '72px',
     },
   },
   BlueH5: {
@@ -166,7 +173,7 @@ export default {
       fontSize: '34px',
     },
     [sizes.down('xs')]: {
-      fontSize: '8px',
+      fontSize: '30px',
     },
   },
   emailButtonDiv: {
