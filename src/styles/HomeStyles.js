@@ -2,12 +2,12 @@ import sizes from './MediaSizes';
 
 export default {
   Home: {
+    marginTop: '16px',
     margin: 'auto',
     // height: '64vh',
     width: '80%',
     // border: '1px solid red',
     display: 'flex',
-    marginTop: '16px',
     marginBottom: '32px',
     '& h2': {
       fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
@@ -17,7 +17,14 @@ export default {
     },
     [sizes.down('sm')]: {
       margin: 'auto',
+      marginTop: '24px',
       display: 'block',
+      '& h2': {
+        fontSize: '48px',
+      },
+      '& h5': {
+        fontSize: '22px',
+      },
     },
     [sizes.down('xs')]: {
       margin: 'auto',
@@ -139,7 +146,7 @@ export default {
     //   fontSize: '14px',
     // },
     [sizes.down('sm')]: {
-      fontSize: '34px',
+      fontSize: '72px',
     },
     [sizes.down('xs')]: {
       fontSize: '8px',
