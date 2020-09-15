@@ -90,24 +90,38 @@ export default {
     fontWeight: 'normal',
   },
   skillsListRow: {
-    border: '1px solid black',
     padding: '8px 0px',
     display: 'flex',
     // justifyContent: 'space-around',
     justifyContent: 'space-evenly',
     alignItems: 'center',
-    '& i': {
-      color: 'purple',
-      fontSize: '32px',
-    },
-    '& span': {
-      color: 'purple',
-      fontSize: '32px',
-    },
+    // '& i': {
+    //   color: 'purple',
+    //   fontSize: '24px',
+    //   margin: '48px 0px 0px 0px  !important',
+    // },
+    // '& span': {
+    //   color: 'purple',
+    //   fontSize: '24px',
+    // },
   },
   skillsListBox: {
-    border: '1px solid red',
+    border: '1px solid rgba(20,15,73,.6)',
     width: '44%',
+    display: 'flex',
+    justifyContent: 'start',
+    alignItems: 'center',
+    padding: '8px 4px 4px 8px',
+    '& i': {
+      marginRight: '8px',
+      color: 'rgba(53,161,205,1)',
+      fontSize: '24px',
+    },
+    '& span': {
+      color: 'rgba(20,15,73,1)',
+      fontSize: '20px',
+      fontWeight: '500',
+    },
   },
   BlueH2: {
     color: 'rgba(53,161,205,1)',
