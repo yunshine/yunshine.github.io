@@ -30,7 +30,12 @@ class Work extends Component {
     const { classes } = this.props;
     return (
       <div className={classes.Work}>
-        <ProjectItem />
+        <ProjectItem
+          test={'test text...'}
+          screenshot={'./screenshots/testphoto.jpg'}
+          url={'Link here...'}
+          gitHub={'Github link here...'}
+        />
       </div>
     );
   }

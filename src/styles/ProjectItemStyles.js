@@ -37,4 +37,4 @@ export default {
   //     //   fontSize: '20px',
   //     },
   //   },
-  },
+};

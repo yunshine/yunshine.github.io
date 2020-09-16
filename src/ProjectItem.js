@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/styles';
 import styles from './styles/ProjectItemStyles';
+import testphoto from './screenshots/testphoto.jpg';
 
 // import { v4 as uuidv4 } from 'uuid'; // for creating unique IDs with uuidv4();
 // npm install axios (for API requests) in terminal???
@@ -34,6 +35,14 @@ class ProjectItem extends Component {
         {/* <h1>{this.state.ProjectItem}</h1>
         <h1>{this.props.ProjectItem}</h1> */}
         <h1>This is the ProjectItem component in the Work component...</h1>
+        <h1>{this.props.test}</h1>
+        <h1>{this.props.screenshot}</h1>
+        <h1>{this.props.url}</h1>
+        <h1>{this.props.gitHub}</h1>
+        <h1>Project Name...</h1>
+        <h1>Description Here...</h1>
+        <h1>Technology Used...</h1>
+        <img src={testphoto} />
       </div>
     );
   }
