@@ -56,7 +56,7 @@ class Home extends Component {
         <div className={classes.HomeRight}>
           <div className={classes.HomeRightTitle}>
             <i class='fab fa-dev'>
-              <span className={classes.HomeRightTitleText}> Skills</span>
+              <span className={classes.HomeRightTitleText}> My Skills</span>
             </i>
           </div>
 

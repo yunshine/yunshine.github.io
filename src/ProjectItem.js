@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import ProjectItem from './ProjectItem';
 import { withStyles } from '@material-ui/styles';
-import styles from './styles/WorkStyles';
+import styles from './styles/ProjectItemStyles';
 
-class Work extends Component {
+// import { v4 as uuidv4 } from 'uuid'; // for creating unique IDs with uuidv4();
+// npm install axios (for API requests) in terminal???
+
+class ProjectItem extends Component {
   // static defaultProps = {
   //   key: value,
   // };
@@ -14,7 +16,7 @@ class Work extends Component {
   // this.handleClick = this.handleClick.bind(this);
   // }
 
-  // Work() {
+  // ProjectItem() {
   //   this.setState({ key: value });
   // }
 
@@ -27,13 +29,14 @@ class Work extends Component {
   // => This is the way and the syntax to update an existing state, not:   this.setState({ score: this.state.score + 3 });
 
   render() {
-    const { classes } = this.props;
     return (
-      <div className={classes.Work}>
-        <ProjectItem />
+      <div className='ProjectItem'>
+        {/* <h1>{this.state.ProjectItem}</h1>
+        <h1>{this.props.ProjectItem}</h1> */}
+        <h1>This is the ProjectItem component in the Work component...</h1>
       </div>
     );
   }
 }
 
-export default withStyles(styles)(Work);
+export default withStyles(styles)(ProjectItem);
