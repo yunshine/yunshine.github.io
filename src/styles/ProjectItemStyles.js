@@ -47,24 +47,25 @@ export default {
     padding: '24px 16px 0px 16px',
     display: 'flex',
     alignItems: 'center',
+    justifyContent: 'center',
     '& h2': {
       textAlign: 'center',
+      margin: 'auto',
       fontSize: '32px',
       fontWeight: '500',
-      margin: 'auto',
-      textAlign: 'center',
       marginBottom: '0px',
     },
     '& p': {
+      margin: 'auto',
       fontSize: '16px',
       textAlign: 'center',
     },
     '& h5': {
-      marginTop: '88px',
+      marginTop: '56px',
       fontSize: '17px',
       textAlign: 'center',
       fontWeight: '450',
-      color: 'rgba(20, 15, 73, 0.7)',
+      color: 'rgba(20, 15, 73, 0.8)',
     },
     '& pre': {
       fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
@@ -72,18 +73,34 @@ export default {
       textAlign: 'center',
       fontWeight: '450',
       color: 'rgba(20, 15, 73, 0.7)',
+      // marginTop: '8px',
+      marginBottom: '4px',
     },
     [sizes.down('md')]: {
       width: '95%',
       margin: 'auto',
       marginBottom: '0px',
       borderRadius: '0px 0px 4px 4px',
+      padding: '24px 16px 24px 16px',
+      '& h5': {
+        marginTop: '20px',
+      },
     },
     [sizes.down('sm')]: {
       width: '95%',
       margin: 'auto',
       marginBottom: '0px',
       borderRadius: '0px 0px 4px 4px',
+      padding: '24px 16px 24px 16px',
+
+      '& h5': {
+        marginTop: '12px',
+      },
+      '& pre': {
+        // display: 'block',
+        // overflowWrap: 'break-word',
+        // wordWrap: 'break-word',
+      },
     },
   },
   buttonsDiv: {

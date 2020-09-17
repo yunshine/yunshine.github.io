@@ -48,14 +48,8 @@ class Work extends Component {
           url={'https://rails-cocktail-recipes.herokuapp.com/'}
           github={'https://github.com/yunshine/Rails-Cocktail-Recipes'}
           description='This Ruby on Rails web application is used to create, edit, organize, and display cocktail recipes.'
-          tech={[
-            'Ruby on Rails',
-            'Ruby',
-            'HTML',
-            'CSS',
-            'Bootstrap',
-            'PostGreSQL',
-          ]}
+          tech1={['Ruby on Rails', 'Ruby', 'HTML', 'CSS']}
+          tech2={['Bootstrap', 'PostGreSQL']}
         />
         <ProjectItem
           name={'OneBite'}
@@ -65,14 +59,8 @@ class Work extends Component {
           url={'http://onebite.fun/'}
           github={'https://github.com/yunshine/OneBite'}
           description='OneBite is a Ruby on Rails app that allows users to search for online courses, schedule lessons into their personal calendar, and track their progress.'
-          tech={[
-            'Ruby on Rails',
-            'Ruby',
-            'HTML',
-            'CSS',
-            'Bootstrap',
-            'PostGreSQL',
-          ]}
+          tech1={['Ruby on Rails', 'Ruby', 'HTML', 'CSS']}
+          tech2={['Bootstrap', 'PostGreSQL']}
         />
         <br></br>
       </div>

@@ -110,9 +110,8 @@ class ProjectItem extends Component {
             <p>{this.props.description}</p>
             <br></br>
             <h5>Built using:</h5>
-            {/* <h6> */}
-            <pre>{this.props.tech.join('   |   ')}</pre>
-            {/* </h6> */}
+            <pre>{this.props.tech1.join('   |   ')}</pre>
+            <pre>{this.props.tech2.join('   |   ')}</pre>
           </div>
         </div>
       </div>

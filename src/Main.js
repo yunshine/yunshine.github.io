@@ -13,7 +13,7 @@ class Main extends Component {
         <Navbar />
         <Home />
         <Work />
-        <About />
+        {/* <About /> */}
         <div className={this.props.classes.MainDiv}>
           <i class='fas fa-tools'></i>
           <h3>Portfolio Under Construction...</h3>

@@ -6,18 +6,18 @@ export default {
   },
   MainDiv: {
     margin: 'auto',
-    marginTop: '120px',
+    marginTop: '56px',
     width: '80%',
     textAlign: 'center',
     '& h3': {
       margin: 'auto',
       color: 'orange',
-      fontSize: '80px',
+      fontSize: '56px',
     },
     '& i': {
       margin: 'auto',
       color: 'orange',
-      fontSize: '240px',
+      fontSize: '120px',
     },
   },
 
