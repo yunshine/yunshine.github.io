@@ -52,7 +52,7 @@ export default {
       textAlign: 'center',
       margin: 'auto',
       fontSize: '32px',
-      fontWeight: '500',
+      fontWeight: '550',
       marginBottom: '0px',
     },
     '& p': {

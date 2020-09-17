@@ -20,14 +20,14 @@ export default {
     textAlign: 'center',
     '& h1': {
       color: 'rgba(20, 15, 73, 0.32)',
-      fontSize: '24px',
+      fontSize: '32px',
       marginBottom: '0px',
       lineHeight: '85%',
       fontWeight: '350',
     },
     '& h2': {
       color: 'rgba(20, 15, 73, 1)',
-      fontSize: '48px',
+      fontSize: '56px',
       fontWeight: '550',
     },
     [sizes.down('md')]: {
