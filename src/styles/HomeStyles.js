@@ -17,6 +17,7 @@ export default {
     },
     [sizes.down('md')]: {
       margin: 'auto',
+      width: '95%',
       marginTop: '24px',
       display: 'block',
       '& h2': {
@@ -27,6 +28,7 @@ export default {
       },
     },
     [sizes.down('sm')]: {
+      width: '95%',
       margin: 'auto',
       marginTop: '24px',
       display: 'block',
@@ -52,12 +54,12 @@ export default {
     },
     [sizes.down('md')]: {
       margin: 'auto',
-      width: '80%',
+      width: '90%',
       paddingBottom: '28px',
     },
     [sizes.down('sm')]: {
       margin: 'auto',
-      width: '80%',
+      width: '95%',
       paddingBottom: '0px',
     },
   },
@@ -67,12 +69,12 @@ export default {
     width: '40%',
     borderRadius: '2px',
     [sizes.down('md')]: {
-      width: '80%',
+      width: '90%',
       margin: 'auto',
       border: '1px solid rgba(20,15,73,.3)',
     },
     [sizes.down('sm')]: {
-      width: '100%',
+      width: '95%',
       margin: 'auto',
       marginTop: '32px',
       border: '1px solid rgba(20,15,73,.3)',
@@ -142,7 +144,7 @@ export default {
       fontWeight: '400',
     },
     '&:hover': {
-      transform: 'scale(1.05)',
+      transform: 'scale(1.03)',
       background: 'rgba(254, 254, 254, 1)',
     },
   },
@@ -190,12 +192,14 @@ export default {
   },
   emailButton: {
     background: 'rgba(246,101,101,1)',
+    display: 'inline-block',
     color: 'rgba(254, 254, 254, 1) !important',
-    padding: '16px 20%',
+    padding: '16px 15%',
     width: '50%',
     transition: 'all 0.3s',
     borderRadius: '4px',
     '&:hover': {
+      transform: 'scale(1.03)',
       cursor: 'pointer',
       textDecoration: 'none',
       color: 'rgba(254, 254, 254, 1) !important',

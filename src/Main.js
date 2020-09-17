@@ -12,8 +12,8 @@ class Main extends Component {
       <div className={this.props.classes.Main}>
         <Navbar />
         <Home />
-        {/* <Work />
-        <About /> */}
+        <Work />
+        <About />
         <div className={this.props.classes.MainDiv}>
           <i class='fas fa-tools'></i>
           <h3>Portfolio Under Construction...</h3>
