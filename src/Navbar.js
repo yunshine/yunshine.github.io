@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/styles';
 // import { Route, Switch, NavLink } from 'react-router-dom';
 import styles from './styles/NavbarStyles.css';
+import CV from './media/YunChungCV.pdf';
 
 class Navbar extends Component {
   render() {
@@ -34,6 +35,11 @@ class Navbar extends Component {
             <li class='nav-item'>
               <a class='nav-link' href='#'>
                 Work
+              </a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href={CV} download>
+                CV
               </a>
             </li>
 
