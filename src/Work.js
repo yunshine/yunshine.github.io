@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 import ProjectItem from './ProjectItem';
 import { withStyles } from '@material-ui/styles';
 import styles from './styles/WorkStyles';
-import cocktail1 from './media/Cocktail1.jpg';
-import cocktail2 from './media/Cocktail2.jpg';
-import cocktail3 from './media/Cocktail3.jpg';
+import Cocktail1 from './media/Cocktail1.jpeg';
+import Cocktail2 from './media/Cocktail2.jpeg';
+import Cocktail3 from './media/Cocktail3.jpeg';
+import OneBite1 from './media/OneBite1.jpeg';
+import OneBite2 from './media/OneBite2.jpeg';
+import OneBite3 from './media/OneBite3.jpeg';
 
 class Work extends Component {
   // static defaultProps = {
@@ -39,9 +42,9 @@ class Work extends Component {
         </div>
         <ProjectItem
           name={'Rails Cocktail Recipes'}
-          photo1={cocktail1}
-          photo2={cocktail2}
-          photo3={cocktail3}
+          photo1={Cocktail1}
+          photo2={Cocktail2}
+          photo3={Cocktail3}
           url={'https://rails-cocktail-recipes.herokuapp.com/'}
           gitHub={'https://github.com/yunshine/Rails-Cocktail-Recipes'}
           description='something about what this app does...'
@@ -54,6 +57,24 @@ class Work extends Component {
             'PostGreSQL',
           ]}
         />
+        <ProjectItem
+          name={'OneBite'}
+          photo1={OneBite1}
+          photo2={OneBite2}
+          photo3={OneBite3}
+          url={'http://onebite.fun/'}
+          gitHub={'https://github.com/yunshine/OneBite'}
+          description='something about what this app does...'
+          tech={[
+            'Ruby on Rails',
+            'Ruby',
+            'HTML',
+            'CSS',
+            'Bootstrap',
+            'PostGreSQL',
+          ]}
+        />
+        <br></br>
       </div>
     );
   }

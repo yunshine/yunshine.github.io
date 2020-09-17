@@ -3,23 +3,17 @@ import sizes from './MediaSizes';
 export default {
   Work: {
     margin: 'auto',
-    width: '85%',
+    width: '85vw',
     marginTop: '0px',
-    // border: '1px solid turquoise',
-    // '& h3': {
-    //   color: 'rgba(20, 15, 73, 1)',
-    // },
     [sizes.down('md')]: {
-      width: '90%',
+      width: '100vw',
       margin: 'auto',
       marginTop: '44px',
-      // border: '1px solid rgba(20,15,73,.3)',
     },
     [sizes.down('sm')]: {
-      width: '95%',
+      width: '100vw',
       margin: 'auto',
       marginTop: '44px',
-      // border: '1px solid rgba(20,15,73,.3)',
     },
   },
   WorkTitle: {
@@ -35,6 +29,12 @@ export default {
       color: 'rgba(20, 15, 73, 1)',
       fontSize: '48px',
       fontWeight: '550',
+    },
+    [sizes.down('md')]: {
+      marginTop: '72px',
+    },
+    [sizes.down('sm')]: {
+      marginTop: '64px',
     },
   },
 };

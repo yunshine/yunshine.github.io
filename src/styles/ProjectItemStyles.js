@@ -1,40 +1,48 @@
+import { Autorenew } from '@material-ui/icons';
 import sizes from './MediaSizes';
 
 export default {
-  // Home: {
-  //   // marginTop: '16px',
-  //   // margin: 'auto',
-  //   // // height: '64vh',
-  //   // width: '80%',
-  //   // // border: '1px solid red',
-  //   // display: 'flex',
-  //   // marginBottom: '32px',
-  //   // '& h2': {
-  //   //   fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
-  //   //   fontSize: '72px',
-  //   //   fontWeight: '600',
-  //   //   color: 'rgba(20, 15, 73, 1)',
-  //   },
-  //   [sizes.down('md')]: {
-  //     // margin: 'auto',
-  //     // marginTop: '24px',
-  //     // display: 'block',
-  //     // '& h2': {
-  //     //   fontSize: '48px',
-  //     },
-  //     // '& h5': {
-  //     //   // fontSize: '22px',
-  //     },
-  //   },
-  //   [sizes.down('sm')]: {
-  //     // margin: 'auto',
-  //     // marginTop: '24px',
-  //     // display: 'block',
-  //     // '& h2': {
-  //     //   fontSize: '40px',
-  //     // },
-  //     // '& h5': {
-  //     //   fontSize: '20px',
-  //     },
-  //   },
+  ProjectItem: {
+    display: 'flex',
+    margin: 'auto',
+    marginTop: '24px',
+    marginBottom: '56px',
+    width: '85vw',
+    [sizes.down('md')]: {
+      display: 'block',
+      textAlign: 'auto',
+      width: '90vw',
+      marginTop: '16px',
+      marginBottom: '56px',
+    },
+    [sizes.down('sm')]: {
+      display: 'block',
+      width: '90vw',
+      margin: 'auto',
+      marginTop: '16px',
+      marginBottom: '56px',
+    },
+  },
+  ProjectItemLeft: {
+    width: '55%',
+    [sizes.down('md')]: {
+      width: '95%',
+      margin: 'auto',
+    },
+    [sizes.down('sm')]: {
+      width: '95%',
+      margin: 'auto',
+    },
+  },
+  ProjectItemRight: {
+    width: '45%',
+    [sizes.down('md')]: {
+      width: '95%',
+      margin: 'auto',
+    },
+    [sizes.down('sm')]: {
+      width: '95%',
+      margin: 'auto',
+    },
+  },
 };
