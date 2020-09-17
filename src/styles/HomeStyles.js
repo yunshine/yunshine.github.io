@@ -44,7 +44,7 @@ export default {
     width: '60%',
     // border: '1px solid black',
     marginTop: '160px',
-    paddingBottom: '80px',
+    paddingBottom: '48px',
     '& h2': {
       lineHeight: '95%',
     },

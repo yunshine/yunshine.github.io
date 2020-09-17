@@ -30,6 +30,10 @@ class Work extends Component {
     const { classes } = this.props;
     return (
       <div className={classes.Work}>
+        <div className={classes.WorkTitle}>
+          <h1>Portfolio</h1>
+          <h2>My Work</h2>
+        </div>
         <ProjectItem
           test={'test text...'}
           screenshot={'./screenshots/testphoto.jpg'}
