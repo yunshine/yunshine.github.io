@@ -46,8 +46,8 @@ class Work extends Component {
           photo2={Cocktail2}
           photo3={Cocktail3}
           url={'https://rails-cocktail-recipes.herokuapp.com/'}
-          gitHub={'https://github.com/yunshine/Rails-Cocktail-Recipes'}
-          description='something about what this app does...'
+          github={'https://github.com/yunshine/Rails-Cocktail-Recipes'}
+          description='This Ruby on Rails web application is used to create, edit, organize, and display cocktail recipes.'
           tech={[
             'Ruby on Rails',
             'Ruby',
@@ -63,8 +63,8 @@ class Work extends Component {
           photo2={OneBite2}
           photo3={OneBite3}
           url={'http://onebite.fun/'}
-          gitHub={'https://github.com/yunshine/OneBite'}
-          description='something about what this app does...'
+          github={'https://github.com/yunshine/OneBite'}
+          description='OneBite is a Ruby on Rails app that allows users to search for online courses, schedule lessons into their personal calendar, and track their progress.'
           tech={[
             'Ruby on Rails',
             'Ruby',
