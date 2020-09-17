@@ -11,7 +11,7 @@ class Navbar extends Component {
     return (
       <div class='navbar navbar-expand-sm navbar-light navbar-lewagon main'>
         <a class='navbar-brand' href='#'>
-          "Logo"
+          {/* "Logo" */}
         </a>
         <button
           class='navbar-toggler'
