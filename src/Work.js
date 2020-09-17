@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import ProjectItem from './ProjectItem';
 import { withStyles } from '@material-ui/styles';
 import styles from './styles/WorkStyles';
+import cocktail1 from './media/Cocktail1.jpg';
+import cocktail2 from './media/Cocktail2.jpg';
+import cocktail3 from './media/Cocktail3.jpg';
 
 class Work extends Component {
   // static defaultProps = {
@@ -35,10 +38,21 @@ class Work extends Component {
           <h2>My Work</h2>
         </div>
         <ProjectItem
-          test={'test text...'}
-          screenshot={'./screenshots/testphoto.jpg'}
-          url={'Link here...'}
-          gitHub={'Github link here...'}
+          name={'Rails Cocktail Recipes'}
+          photo1={cocktail1}
+          photo2={cocktail2}
+          photo3={cocktail3}
+          url={'https://rails-cocktail-recipes.herokuapp.com/'}
+          gitHub={'https://github.com/yunshine/Rails-Cocktail-Recipes'}
+          description='something about what this app does...'
+          tech={[
+            'Ruby on Rails',
+            'Ruby',
+            'HTML',
+            'CSS',
+            'Bootstrap',
+            'PostGreSQL',
+          ]}
         />
       </div>
     );
