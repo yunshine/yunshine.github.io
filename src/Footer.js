@@ -1,23 +1,22 @@
 import React, { Component } from 'react';
-// import -something-, { -something- } from './-something-';
-import './-something-.css'; // make a CSS file for this component..
-// import { Route, Switch, NavLink } from 'react-router-dom';
+import { withStyles } from '@material-ui/styles';
+import styles from './styles/FooterStyles';
 
 // import { v4 as uuidv4 } from 'uuid'; // for creating unique IDs with uuidv4();
 // npm install axios (for API requests) in terminal???
 
-class -something- extends Component {
+class Footer extends Component {
   // static defaultProps = {
   //   key: value,
   // };
-  
+
   // constructor(props) {
   //   super(props);
-    // this.state = { key: value };
-    // this.handleClick = this.handleClick.bind(this);
+  // this.state = { key: value };
+  // this.handleClick = this.handleClick.bind(this);
   // }
 
-  // -something-() {
+  // Footer() {
   //   this.setState({ key: value });
   // }
 
@@ -30,14 +29,27 @@ class -something- extends Component {
   // => This is the way and the syntax to update an existing state, not:   this.setState({ score: this.state.score + 3 });
 
   render() {
+    const { classes } = this.props;
     return (
-      <div className="-something-">
-        {/* <h1>{this.state.-something-}</h1>
-        <h1>{this.props.-something-}</h1> */}
-        <h1>This is the -something- component...</h1>
+      <div className={classes.Footer}>
+        <h3>© 2020 Built with React</h3>
+        <div className={classes.iconDiv}>
+          <a href='mailto:yun.chung@mac.com'>
+            <i class='far fa-envelope'></i>
+          </a>
+          <a href='https://www.linkedin.com/in/yunchungio/'>
+            <i class='fab fa-linkedin'></i>
+          </a>
+          <a href='https://github.com/yunshine'>
+            <i class='fab fa-github'></i>
+          </a>
+          <a href='https://www.instagram.com/yun.chung/'>
+            <i class='fab fa-instagram'></i>
+          </a>
+        </div>
       </div>
     );
   }
 }
 
-export default -something-; /// connect this component to App.js...
+export default withStyles(styles)(Footer); /// connect this component to App.js...

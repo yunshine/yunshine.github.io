@@ -40,7 +40,7 @@ export default {
     display: 'flex',
     justifyContent: 'center',
     // alignItems: 'center',
-    marginBottom: '400px',
+    marginBottom: '85px',
   },
   AboutLeft: {
     width: '50%',

@@ -7,6 +7,7 @@ export default {
   MainDiv: {
     margin: 'auto',
     marginTop: '56px',
+    marginBottom: '0px',
     width: '80%',
     textAlign: 'center',
     '& h3': {
