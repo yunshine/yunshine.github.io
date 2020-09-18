@@ -3,28 +3,6 @@ import { withStyles } from '@material-ui/styles';
 import styles from './styles/HomeStyles';
 
 class Home extends Component {
-  // static defaultProps = {
-  //   key: value,
-  // };
-
-  // constructor(props) {
-  //   super(props);
-  // this.state = { key: value };
-  // this.handleClick = this.handleClick.bind(this);
-  // }
-
-  // Home() {
-  //   this.setState({ key: value });
-  // }
-
-  // handleClick() {
-  //   this.newFunction();
-  //   this.setState(oldState => {
-  //     return { score: oldState + 3 };
-  //   })
-  // }
-  // => This is the way and the syntax to update an existing state, not:   this.setState({ score: this.state.score + 3 });
-
   render() {
     const { classes } = this.props;
     return (
@@ -46,13 +24,6 @@ class Home extends Component {
             <h6>Got a project? Shoot me an email!</h6>
             <div id='work'></div>
           </div>
-          {/* <div>
-              <i class='far fa-envelope'></i>
-            </div>
-            <div>
-              <h6>Email</h6>
-            </div>
-          </a> */}
         </div>
         <div className={classes.HomeRight}>
           <div className={classes.HomeRightTitle}>

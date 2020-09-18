@@ -2,32 +2,7 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/styles';
 import styles from './styles/FooterStyles';
 
-// import { v4 as uuidv4 } from 'uuid'; // for creating unique IDs with uuidv4();
-// npm install axios (for API requests) in terminal???
-
 class Footer extends Component {
-  // static defaultProps = {
-  //   key: value,
-  // };
-
-  // constructor(props) {
-  //   super(props);
-  // this.state = { key: value };
-  // this.handleClick = this.handleClick.bind(this);
-  // }
-
-  // Footer() {
-  //   this.setState({ key: value });
-  // }
-
-  // handleClick() {
-  //   this.newFunction();
-  //   this.setState(oldState => {
-  //     return { score: oldState + 3 };
-  //   })
-  // }
-  // => This is the way and the syntax to update an existing state, not:   this.setState({ score: this.state.score + 3 });
-
   render() {
     const { classes } = this.props;
     return (
@@ -52,4 +27,4 @@ class Footer extends Component {
   }
 }
 
-export default withStyles(styles)(Footer); /// connect this component to App.js...
+export default withStyles(styles)(Footer);

@@ -9,9 +9,6 @@ export default {
     marginBottom: '56px',
     width: '85vw',
     transition: 'all .1s ease-in-out',
-    // '&:hover': {
-    //   transform: 'scale(1.01)',
-    // },
     [sizes.down('md')]: {
       display: 'block',
       textAlign: 'auto',
@@ -118,7 +115,6 @@ export default {
       fontWeight: '600',
       border: '2px solid rgba(246,101,101,1)',
       borderRadius: '4px',
-      // display: 'inline-block',
       background: 'transparent',
       padding: '4px 28px',
       transition: 'all 0.3s',

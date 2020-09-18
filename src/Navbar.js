@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-// import -something-, { -something- } from './-something-';
-// import classes from '*.module.css';
 import { withStyles } from '@material-ui/styles';
-// import { Route, Switch, NavLink } from 'react-router-dom';
 import styles from './styles/NavbarStyles.css';
 import CV from './media/YunChungCV.pdf';
 
@@ -42,16 +39,6 @@ class Navbar extends Component {
                 CV
               </a>
             </li>
-
-            {/* <li class='nav-item'>
-              <a
-                class='nav-link'
-                href='../public/YunChungCV.pdf'
-                download='YunChungCV'
-              >
-                CV
-              </a>
-            </li> */}
 
             <li class='nav-item dropdown'>
               <a
@@ -97,4 +84,4 @@ class Navbar extends Component {
   }
 }
 
-export default withStyles(styles)(Navbar); /// connect this component to App.js...
+export default withStyles(styles)(Navbar);
