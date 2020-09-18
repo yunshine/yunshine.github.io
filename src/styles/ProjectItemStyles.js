@@ -81,6 +81,7 @@ export default {
       width: '95%',
       margin: 'auto',
       marginBottom: '0px',
+      border: '1px solid rgba(20,15,73,.3)',
       borderRadius: '0px 0px 4px 4px',
       padding: '24px 16px 24px 16px',
       '& h5': {
@@ -88,6 +89,7 @@ export default {
       },
     },
     [sizes.down('sm')]: {
+      border: '1px solid rgba(20,15,73,.3)',
       width: '95%',
       margin: 'auto',
       marginBottom: '0px',

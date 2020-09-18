@@ -4,22 +4,20 @@ export default {
   About: {
     margin: 'auto',
     marginTop: '0px',
-    width: '56%',
+    width: '56vw',
     // border: '1px solid blue',
     // textAlign: 'center',
-
     [sizes.down('md')]: {
-      width: '95vw',
+      display: 'block',
+      width: '80vw',
       margin: 'auto',
-      marginTop: '44px',
+      padding: '0px 16px',
     },
     [sizes.down('sm')]: {
-      width: '95vw',
+      display: 'block',
+      width: '80vw',
       margin: 'auto',
-      marginTop: '44px',
     },
-    [sizes.down('md')]: {},
-    [sizes.down('sm')]: {},
   },
   AboutTitle: {
     '& h1': {
