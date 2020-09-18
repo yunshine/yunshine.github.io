@@ -8,7 +8,7 @@ export default {
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
-    '&  h3': {
+    '&  h5': {
       marginBottom: '0px',
       color: ' rgba(254, 254, 254, 1)',
       fontWeight: '200',
@@ -21,9 +21,14 @@ export default {
     justifyContent: 'center',
     alignItems: 'center',
     '& i': {
-      fontSize: '40px',
-      color: ' rgba(254, 254, 254, 1)',
+      fontSize: '24px',
+      color: ' rgba(254, 254, 254, 0.85)',
       fontWeight: '200',
+      margin: '0px 16px',
+      transition: 'all .1s ease-in-out',
+      '&:hover': {
+        transform: 'scale(1.3)',
+      },
     },
   },
 };
