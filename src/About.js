@@ -38,7 +38,19 @@ class About extends Component {
           <div className={classes.AboutLeft}>
             <img src={Yun} />
           </div>
-          <div className={classes.AboutRight}></div>
+          <div className={classes.AboutRight}>
+            <h2>Hi! I'm Yun.</h2>
+            <p>
+              I'm a recent graduate of Le Wagon (Tokyo), the highest-rated
+              coding bootcamp in the world.
+            </p>
+            <p>
+              Technology fascinates me, so I'm looking for a position as a full
+              stack web developer in an environment where I can make a
+              meaningful contribution each and every day while learning and
+              developing my skills.
+            </p>
+          </div>
         </div>
       </div>
     );
