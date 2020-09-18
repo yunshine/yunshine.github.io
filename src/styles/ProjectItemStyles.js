@@ -39,8 +39,9 @@ export default {
     },
   },
   ProjectItemRight: {
+    marginLeft: '8px',
     width: '45%',
-    border: '1px solid rgba(20,15,73,.3)',
+    // border: '1px solid rgba(20,15,73,.3)',
     borderRadius: '0px 4px 4px 0px',
     fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
     color: 'rgba(20, 15, 73, 1)',
@@ -109,6 +110,7 @@ export default {
     marginTop: '0px',
     '& a': {
       margin: '16px',
+      textAlign: 'center',
       color: 'rgba(246,101,101,1) !important',
       fontSize: '16px',
       fontWeight: '600',

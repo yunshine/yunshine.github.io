@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/styles';
 import styles from './styles/AboutStyles';
+import Yun from './media/YunChungProfile.jpeg';
 
 class About extends Component {
   // static defaultProps = {
@@ -29,7 +30,16 @@ class About extends Component {
     const { classes } = this.props;
     return (
       <div className={classes.About}>
-        <h1>This is the About component...</h1>
+        <div className={classes.AboutTitle}>
+          <h1>Bio</h1>
+          <h2>About Me</h2>
+        </div>
+        <div className={classes.AboutFlexContainer}>
+          <div className={classes.AboutLeft}>
+            <img src={Yun} />
+          </div>
+          <div className={classes.AboutRight}></div>
+        </div>
       </div>
     );
   }
