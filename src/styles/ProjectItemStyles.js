@@ -1,4 +1,4 @@
-import { Autorenew } from '@material-ui/icons';
+// import { Autorenew } from '@material-ui/icons';
 import sizes from './MediaSizes';
 
 export default {
