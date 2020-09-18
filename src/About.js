@@ -46,9 +46,8 @@ class About extends Component {
             </p>
             <p>
               Technology fascinates me, so I'm looking for a position as a full
-              stack web developer in an environment where I can make a
-              meaningful contribution each and every day while learning and
-              developing my skills.
+              stack web developer in an environment where I can develop my
+              skills and make a meaningful contribution each and every day.
             </p>
           </div>
         </div>

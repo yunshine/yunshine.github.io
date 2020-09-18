@@ -9,13 +9,13 @@ export default {
     // textAlign: 'center',
     [sizes.down('md')]: {
       display: 'block',
-      width: '80vw',
+      width: '85vw',
       margin: 'auto',
       padding: '0px 16px',
     },
     [sizes.down('sm')]: {
       display: 'block',
-      width: '80vw',
+      width: '88vw',
       margin: 'auto',
     },
   },
@@ -51,11 +51,23 @@ export default {
     '& img': {
       textAlign: 'right',
       borderRadius: '50%',
-      width: '40%',
+      width: '48%',
       height: 'auto',
       boxShadow: '0 1px 2px rgba(0,0,0,0.2)',
       border: 'white 1px solid',
       marginRight: '32px',
+    },
+    [sizes.down('md')]: {
+      '& img': {
+        width: '56%',
+        height: 'auto',
+      },
+    },
+    [sizes.down('sm')]: {
+      '& img': {
+        width: '88%',
+        height: 'auto',
+      },
     },
   },
   AboutRight: {
@@ -69,6 +81,22 @@ export default {
       fontSize: '16px',
       fontWeight: '450',
       color: 'rgba(20, 15, 73, 0.85)',
+    },
+    [sizes.down('md')]: {
+      '& p': {
+        fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
+        fontSize: '15px',
+        fontWeight: '400',
+        color: 'rgba(20, 15, 73, 0.85)',
+      },
+    },
+    [sizes.down('sm')]: {
+      '& p': {
+        fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
+        fontSize: '15px',
+        fontWeight: '400',
+        color: 'rgba(20, 15, 73, 0.9)',
+      },
     },
   },
 };
