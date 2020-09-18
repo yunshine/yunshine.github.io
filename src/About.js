@@ -29,7 +29,7 @@ class About extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <div className={classes.About}>
+      <div className={classes.About} id='about'>
         <div className={classes.AboutTitle}>
           <h1>Bio</h1>
           <h2>About Me</h2>
@@ -46,8 +46,8 @@ class About extends Component {
             </p>
             <p>
               Technology fascinates me, so I'm looking for a position as a full
-              stack web developer in an environment where I can develop my
-              skills and make a meaningful contribution each and every day.
+              stack web developer in an environment where I can learn, develop
+              my skills, and make a meaningful contribution each and every day.
             </p>
           </div>
         </div>

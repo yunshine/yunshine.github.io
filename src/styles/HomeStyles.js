@@ -8,7 +8,7 @@ export default {
     width: '80%',
     // border: '1px solid red',
     display: 'flex',
-    marginBottom: '32px',
+    marginBottom: '0px',
     '& h2': {
       fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
       fontSize: '72px',

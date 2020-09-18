@@ -4,7 +4,7 @@ export default {
   Work: {
     margin: 'auto',
     width: '85vw',
-    marginTop: '0px',
+    marginTop: '32px',
     [sizes.down('md')]: {
       width: '100vw',
       margin: 'auto',

@@ -44,6 +44,7 @@ class Home extends Component {
               Email Me
             </a>
             <h6>Got a project? Shoot me an email!</h6>
+            <div id='work'></div>
           </div>
           {/* <div>
               <i class='far fa-envelope'></i>
