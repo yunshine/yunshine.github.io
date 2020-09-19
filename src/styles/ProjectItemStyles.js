@@ -59,7 +59,7 @@ export default {
       textAlign: 'center',
     },
     '& h5': {
-      marginTop: '56px',
+      marginTop: '52px',
       fontSize: '17px',
       textAlign: 'center',
       fontWeight: '450',
@@ -79,6 +79,7 @@ export default {
       margin: 'auto',
       marginBottom: '0px',
       border: '1px solid rgba(20,15,73,.3)',
+      borderTop: '1px solid rgba(20,15,73,.2)',
       borderRadius: '0px 0px 4px 4px',
       padding: '24px 16px 24px 16px',
       '& h5': {
@@ -87,6 +88,7 @@ export default {
     },
     [sizes.down('sm')]: {
       border: '1px solid rgba(20,15,73,.3)',
+      borderTop: '1px solid rgba(20,15,73,.2)',
       width: '95%',
       margin: 'auto',
       marginBottom: '0px',

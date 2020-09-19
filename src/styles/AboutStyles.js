@@ -58,12 +58,16 @@ export default {
       marginRight: '32px',
     },
     [sizes.down('md')]: {
+      width: '45%',
+
       '& img': {
         width: '56%',
         height: 'auto',
       },
     },
     [sizes.down('sm')]: {
+      width: '45%',
+
       '& img': {
         width: '88%',
         height: 'auto',
@@ -83,6 +87,10 @@ export default {
       color: 'rgba(20, 15, 73, 0.85)',
     },
     [sizes.down('md')]: {
+      width: '55%',
+      '& h2': {
+        color: 'rgba(53,161,205,1)',
+      },
       '& p': {
         fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
         fontSize: '15px',
@@ -91,6 +99,11 @@ export default {
       },
     },
     [sizes.down('sm')]: {
+      width: '55%',
+      '& h2': {
+        fontSize: '22px',
+        color: 'rgba(53,161,205,1)',
+      },
       '& p': {
         fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
         fontSize: '15px',

@@ -84,10 +84,20 @@ export default {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: '8px',
+    marginBottom: '0px',
     '& i': {
       color: 'rgba(246,101,101,1)',
       fontSize: '40px',
+    },
+    [sizes.down('md')]: {
+      // '& i': {
+      //   color: 'transparent',
+      // },
+    },
+    [sizes.down('sm')]: {
+      // '& i': {
+      //   display: 'none',
+      // },
     },
   },
   HomeRightTitleList: {
@@ -107,9 +117,15 @@ export default {
     fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
     fontSize: '32px',
     fontWeight: '500',
+    [sizes.down('md')]: {
+      fontSize: '28px',
+    },
+    [sizes.down('sm')]: {
+      fontSize: '20px',
+    },
   },
   liText: {
-    color: 'teal',
+    // color: 'teal',
     fontSize: '16px',
     fontFamily: 'Raleway, Arial, Helvetica, sans-serif !important',
     fontWeight: 'normal',
@@ -146,6 +162,16 @@ export default {
     '&:hover': {
       transform: 'scale(1.03)',
       background: 'rgba(254, 254, 254, 1)',
+    },
+    [sizes.down('md')]: {
+      '& span': {
+        fontSize: '16px',
+      },
+    },
+    [sizes.down('sm')]: {
+      '& span': {
+        fontSize: '14px',
+      },
     },
   },
   BlueH2: {

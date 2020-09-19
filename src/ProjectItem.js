@@ -82,11 +82,10 @@ class ProjectItem extends Component {
           <div>
             <h2>{this.props.name}</h2>
             <div className={classes.buttonsDiv}>
-              <a href={this.props.url}>Visit App</a>
+              <a href={this.props.url}>Visit Site</a>
               <a href={this.props.github}>Visit Github</a>
             </div>
             <p>{this.props.description}</p>
-            <br></br>
             <h5>Built using:</h5>
             <pre>{this.props.tech1.join('   |   ')}</pre>
             <pre>{this.props.tech2.join('   |   ')}</pre>

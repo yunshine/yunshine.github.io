@@ -27,9 +27,9 @@ class Home extends Component {
         </div>
         <div className={classes.HomeRight}>
           <div className={classes.HomeRightTitle}>
-            <i class='fab fa-dev'>
-              <span className={classes.HomeRightTitleText}> My Skills</span>
-            </i>
+            {/* <i class='fab fa-dev'> */}
+            {/* </i> */}
+            <span className={classes.HomeRightTitleText}> My Skills</span>
           </div>
 
           <div className={classes.skillsListRow}>
