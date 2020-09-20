@@ -26,6 +26,10 @@ export default {
   },
   ProjectItemLeft: {
     width: '55%',
+    '& img': {
+      // position: 'absolute',
+      // clip: 'rect(0px,50px,50px,0px)',
+    },
     [sizes.down('md')]: {
       width: '95%',
       margin: 'auto',

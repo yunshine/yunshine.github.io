@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import ProjectItem from './ProjectItem';
 import { withStyles } from '@material-ui/styles';
 import styles from './styles/WorkStyles';
-import Cocktail1 from './media/Cocktail1.jpeg';
-import Cocktail2 from './media/Cocktail2.jpeg';
-import Cocktail3 from './media/Cocktail3.jpeg';
-import OneBite1 from './media/OneBite1.jpeg';
-import OneBite2 from './media/OneBite2.jpeg';
-import OneBite3 from './media/OneBite3.jpeg';
+import Cocktail1 from './media/Cocktail1.jpg';
+import Cocktail2 from './media/Cocktail2.jpg';
+import Cocktail3 from './media/Cocktail3.jpg';
+import OneBite1 from './media/OneBite1.jpg';
+import OneBite2 from './media/OneBite2.jpg';
+import OneBite3 from './media/OneBite3.jpg';
 
 class Work extends Component {
   render() {

@@ -23,9 +23,11 @@ class About extends Component {
               coding bootcamp in the world.
             </p>
             <p>
-              Technology fascinates me, so I'm looking for a position as a full
-              stack web developer in an environment where I can learn, develop
-              my skills, and make a meaningful contribution each and every day.
+              I'm currently looking for a position as a full stack web
+              developer. Technology fascinates me, so an ideal environment for
+              me would be a place where I can learn, develop my skills, and make
+              a meaningful contribution towards building useful products each
+              and every day.
             </p>
           </div>
         </div>
