@@ -72,7 +72,7 @@ class Navbar extends Component {
 
                 <div class='contact-dropdown-link'>
                   <a class='dropdown-item' href='https://github.com/yunshine'>
-                    <i class='fab fa-github'> Github</i>
+                    <i class='fab fa-github'> GitHub</i>
                   </a>
                 </div>
               </div>

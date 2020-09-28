@@ -83,7 +83,7 @@ class ProjectItem extends Component {
             <h2>{this.props.name}</h2>
             <div className={classes.buttonsDiv}>
               <a href={this.props.url}>Visit Site</a>
-              <a href={this.props.github}>Visit Github</a>
+              <a href={this.props.github}>Visit GitHub</a>
             </div>
             <p>{this.props.description}</p>
             <h5>Built using:</h5>
