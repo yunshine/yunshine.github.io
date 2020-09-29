@@ -147,8 +147,8 @@ export default {
     transition: 'all .1s ease-in-out',
     '& i': {
       marginRight: '8px',
-      color: 'rgba(246,101,101,1)',
-      color: ' rgba(20,15,73,.5)',
+      // color: 'rgba(246,101,101,1)',
+      // color: ' rgba(20,15,73,.5)',
       color: 'rgba(53,161,205, 0.75)',
       // color: 'rgba(88,206,255,1)',
 

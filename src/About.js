@@ -14,7 +14,7 @@ class About extends Component {
         </div>
         <div className={classes.AboutFlexContainer}>
           <div className={classes.AboutLeft}>
-            <img src={Yun} alt="Yun Chung's Profile Photo" />
+            <img src={Yun} alt="Yun Chung's Profile" />
           </div>
           <div className={classes.AboutRight}>
             <h2>Hi! I'm Yun.</h2>
