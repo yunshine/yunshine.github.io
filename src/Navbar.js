@@ -41,6 +41,7 @@ class Navbar extends Component {
             </li>
 
             <li class='nav-item dropdown'>
+              {/* eslint-disable-next-line */}
               <a
                 href='#'
                 class='nav-link dropdown-toggle'
