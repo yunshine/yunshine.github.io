@@ -65,7 +65,7 @@ class Navbar extends Component {
                 <div class='contact-dropdown-link'>
                   <a
                     class='dropdown-item'
-                    href='https://www.linkedin.com/in/yunchungio/'
+                    href='https://www.linkedin.com/in/yunchungdev/'
                   >
                     <i class='fab fa-linkedin'> LinkedIn</i>
                   </a>
