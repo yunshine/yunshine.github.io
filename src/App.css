@@ -1,5 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 .App {
   background-color: rgba(254, 254, 254, 1);
+
 }
 
 /*  main colors... */
