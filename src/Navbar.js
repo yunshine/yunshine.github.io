@@ -7,7 +7,7 @@ class Navbar extends Component {
   render() {
     return (
       <div class='navbar navbar-expand-sm navbar-light navbar-lewagon main'>
-        <a class='navbar-brand' href='#'>
+        <a class='navbar-brand' href='#top'>
           {/* "Logo" */}
         </a>
         <button

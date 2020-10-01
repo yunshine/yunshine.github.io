@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <div className={classes.Home}>
+      <div className={classes.Home} id='top'>
         <div className={classes.HomeLeft}>
           <h2>
             <span className={classes.BlueH2}>Hello.</span>
