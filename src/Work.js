@@ -19,6 +19,17 @@ class Work extends Component {
           <h2>My Work</h2>
         </div>
         <ProjectItem
+          name={'Collocafe'}
+          photo1={Cocktail1}
+          photo2={Cocktail2}
+          photo3={Cocktail3}
+          url={'https://rails-cocktail-recipes.herokuapp.com/'}
+          github={'https://github.com/yunshine/Collocafe'}
+          description='An Express and MongoDB CRUD app.'
+          tech1={['Javascript', 'Express', 'MongoDB', 'Node.js']}
+          tech2={['HTML', 'CSS']}
+        />
+        <ProjectItem
           name={'Rails Cocktail Recipes'}
           photo1={Cocktail1}
           photo2={Cocktail2}
