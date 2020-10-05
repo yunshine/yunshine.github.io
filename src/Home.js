@@ -37,7 +37,7 @@ class Home extends Component {
               <div className={classes.devicon}>
                 <i class='devicon-javascript-plain'></i>
               </div>
-              <span className={classes.liText}>Javascript</span>
+              <span className={classes.liText}>JavaScript</span>
             </div>
 
             <div className={classes.skillsListBox}>
