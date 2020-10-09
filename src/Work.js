@@ -23,7 +23,7 @@ class Work extends Component {
           photo1={Cocktail1}
           photo2={Cocktail2}
           photo3={Cocktail3}
-          url={'https://rails-cocktail-recipes.herokuapp.com/'}
+          url={'https://collocafe.herokuapp.com/'}
           github={'https://github.com/yunshine/Collocafe'}
           description='An Express and MongoDB CRUD app.'
           tech1={['JavaScript', 'Express', 'MongoDB', 'Node.js']}
