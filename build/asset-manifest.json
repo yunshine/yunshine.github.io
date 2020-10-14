@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec17abcb.chunk.css",
-    "main.js": "/static/js/main.42be7678.chunk.js",
-    "main.js.map": "/static/js/main.42be7678.chunk.js.map",
+    "main.css": "/static/css/main.88e99f5a.chunk.css",
+    "main.js": "/static/js/main.4c8223f5.chunk.js",
+    "main.js.map": "/static/js/main.4c8223f5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.6a660060.chunk.js": "/static/js/2.6a660060.chunk.js",
-    "static/js/2.6a660060.chunk.js.map": "/static/js/2.6a660060.chunk.js.map",
+    "static/js/2.c52af980.chunk.js": "/static/js/2.c52af980.chunk.js",
+    "static/js/2.c52af980.chunk.js.map": "/static/js/2.c52af980.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ba17e854071a86c207ae2748c24c0035.js": "/precache-manifest.ba17e854071a86c207ae2748c24c0035.js",
+    "precache-manifest.0d920253b44bee6fd6c06afbd84dcb8a.js": "/precache-manifest.0d920253b44bee6fd6c06afbd84dcb8a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ec17abcb.chunk.css.map": "/static/css/main.ec17abcb.chunk.css.map",
-    "static/js/2.6a660060.chunk.js.LICENSE.txt": "/static/js/2.6a660060.chunk.js.LICENSE.txt",
+    "static/css/main.88e99f5a.chunk.css.map": "/static/css/main.88e99f5a.chunk.css.map",
+    "static/js/2.c52af980.chunk.js.LICENSE.txt": "/static/js/2.c52af980.chunk.js.LICENSE.txt",
     "static/media/Cocktail1.jpg": "/static/media/Cocktail1.a7f49e58.jpg",
     "static/media/Cocktail2.jpg": "/static/media/Cocktail2.206cb210.jpg",
     "static/media/Cocktail3.jpg": "/static/media/Cocktail3.9a3848c3.jpg",
+    "static/media/Collocafe1.jpg": "/static/media/Collocafe1.1b2d2a6c.jpg",
+    "static/media/Collocafe2.jpg": "/static/media/Collocafe2.a0ab73a8.jpg",
+    "static/media/Collocafe3.jpg": "/static/media/Collocafe3.2a54871e.jpg",
     "static/media/OneBite1.jpg": "/static/media/OneBite1.7dce0101.jpg",
     "static/media/OneBite2.jpg": "/static/media/OneBite2.21262028.jpg",
     "static/media/OneBite3.jpg": "/static/media/OneBite3.3c157bd9.jpg",
@@ -23,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.6a660060.chunk.js",
-    "static/css/main.ec17abcb.chunk.css",
-    "static/js/main.42be7678.chunk.js"
+    "static/js/2.c52af980.chunk.js",
+    "static/css/main.88e99f5a.chunk.css",
+    "static/js/main.4c8223f5.chunk.js"
   ]
 }

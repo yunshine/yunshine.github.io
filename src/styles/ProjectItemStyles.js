@@ -102,7 +102,11 @@ export default {
       '& h5': {
         marginTop: '12px',
       },
+      '& p': {
+        fontSize: '15px',
+      },
       '& pre': {
+        fontSize: '14px',
         // display: 'block',
         // overflowWrap: 'break-word',
         // wordWrap: 'break-word',

@@ -28,9 +28,9 @@ class Work extends Component {
           photo3={Collocafe3}
           url={'https://collocafe.herokuapp.com/'}
           github={'https://github.com/yunshine/Collocafe'}
-          description="A Node.js, Express, and MongoDB CRUD app that allows users to list and dialogue about some of the best cafes in Tokyo."
-          tech1={['JavaScript', 'Express', 'MongoDB', 'Node.js']}
-          tech2={['HTML', 'CSS']}
+          description="A Node.js, Express, and MongoDB CRUD app that allows users to share and dialogue about some of the best cafes in Tokyo."
+          tech1={['Node.js', 'Express', 'MongoDB', 'Bootstrap']}
+          tech2={['JavaScript', 'HTML', 'CSS']}
         />
         <ProjectItem
           name={'Rails Cocktail Recipes'}
