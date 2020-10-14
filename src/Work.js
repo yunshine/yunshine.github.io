@@ -5,6 +5,9 @@ import styles from './styles/WorkStyles';
 import Cocktail1 from './media/Cocktail1.jpg';
 import Cocktail2 from './media/Cocktail2.jpg';
 import Cocktail3 from './media/Cocktail3.jpg';
+import Collocafe1 from './media/Collocafe1.jpg';
+import Collocafe2 from './media/Collocafe2.jpg';
+import Collocafe3 from './media/Collocafe3.jpg';
 import OneBite1 from './media/OneBite1.jpg';
 import OneBite2 from './media/OneBite2.jpg';
 import OneBite3 from './media/OneBite3.jpg';
@@ -20,12 +23,12 @@ class Work extends Component {
         </div>
         <ProjectItem
           name={'Collocafe'}
-          photo1={Cocktail1}
-          photo2={Cocktail2}
-          photo3={Cocktail3}
+          photo1={Collocafe1}
+          photo2={Collocafe2}
+          photo3={Collocafe3}
           url={'https://collocafe.herokuapp.com/'}
           github={'https://github.com/yunshine/Collocafe'}
-          description='An Express and MongoDB CRUD app.'
+          description="A Node.js, Express, and MongoDB CRUD app that allows users to list and dialogue about some of the best cafes in Tokyo."
           tech1={['JavaScript', 'Express', 'MongoDB', 'Node.js']}
           tech2={['HTML', 'CSS']}
         />
