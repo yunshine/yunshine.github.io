@@ -42,9 +42,10 @@ class Home extends Component {
 
             <div className={classes.skillsListBox}>
               <div className={classes.deviconDiv}>
-                <i class='devicon-jquery-plain'></i>
+                <i class='devicon-nodejs-plain'></i>
               </div>
-              <span className={classes.liText}>jQuery</span>
+              {/* <span className={classes.liText}>jQuery</span> */}
+              <span className={classes.liText}>Node.js</span>
             </div>
           </div>
 
@@ -125,9 +126,10 @@ class Home extends Component {
           <div className={classes.skillsListRow}>
             <div className={classes.skillsListBox}>
               <div className={classes.devicon}>
-                <i class='devicon-nodejs-plain'></i>
+                <i class='devicon-jquery-plain'></i>
               </div>
-              <span className={classes.liText}>Node.js</span>
+              {/* <span className={classes.liText}>Node.js</span> */}
+              <span className={classes.liText}>jQuery</span>
             </div>
           </div>
         </div>
