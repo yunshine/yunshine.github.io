@@ -18,6 +18,8 @@ class Work extends Component {
     const { classes } = this.props;
     return (
       <div className={classes.Work}>
+        <hr></hr>
+
         <div className={classes.WorkTitle}>
           <h1>Portfolio</h1>
           <h2>My Work</h2>
@@ -33,6 +35,7 @@ class Work extends Component {
           tech1={['Node.js', 'Express', 'MongoDB', 'Bootstrap']}
           tech2={['JavaScript', 'HTML', 'CSS']}
         />
+        <hr></hr>
         <ProjectItemFlipped
           name={'Rails Cocktail Recipes'}
           photo1={Cocktail1}
@@ -44,6 +47,7 @@ class Work extends Component {
           tech1={['Ruby on Rails', 'Ruby', 'HTML', 'CSS']}
           tech2={['Bootstrap', 'PostGreSQL']}
         />
+        <hr></hr>
         <ProjectItem
           name={'OneBite'}
           photo1={OneBite1}
@@ -56,6 +60,8 @@ class Work extends Component {
           tech2={['Bootstrap', 'PostGreSQL']}
         />
         <br></br>
+        <hr></hr>
+
       </div>
     );
   }
