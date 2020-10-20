@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ProjectItem from './ProjectItem';
+import ProjectItemFlipped from './ProjectItemFlipped';
 import { withStyles } from '@material-ui/styles';
 import styles from './styles/WorkStyles';
 import Cocktail1 from './media/Cocktail1.jpg';
@@ -32,7 +33,7 @@ class Work extends Component {
           tech1={['Node.js', 'Express', 'MongoDB', 'Bootstrap']}
           tech2={['JavaScript', 'HTML', 'CSS']}
         />
-        <ProjectItem
+        <ProjectItemFlipped
           name={'Rails Cocktail Recipes'}
           photo1={Cocktail1}
           photo2={Cocktail2}
