@@ -37,4 +37,7 @@ export default {
       marginTop: '64px',
     },
   },
+  HR: {
+    borderTop: "1px solid rgba(20, 15, 73, 0.1)",
+  },
 };
