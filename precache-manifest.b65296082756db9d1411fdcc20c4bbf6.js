@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2046d3ffd898c9da071862ce27181c14",
+    "revision": "66d0add01e6a4528dc5872b44f713522",
     "url": "/index.html"
   },
   {
-    "revision": "a27ccbe95233db63e6fd",
+    "revision": "2f4379b1b00330c05e2f",
     "url": "/static/css/main.88e99f5a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c52af980.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a27ccbe95233db63e6fd",
-    "url": "/static/js/main.55cbfb0f.chunk.js"
+    "revision": "2f4379b1b00330c05e2f",
+    "url": "/static/js/main.ac268ca5.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Cocktail3.9a3848c3.jpg"
   },
   {
-    "revision": "3e161ece80cdc2fe624db14261eb2b91",
-    "url": "/static/media/Collocafe1.3e161ece.jpg"
+    "revision": "f9ca35424b89c7414591585bf92a7096",
+    "url": "/static/media/Collocafe1.f9ca3542.jpg"
   },
   {
     "revision": "c446092745674b274a3f228d7f8ed32d",
