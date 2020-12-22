@@ -8,6 +8,10 @@ html {
 
 }
 
+.navbar-logo {
+    height: 56px;
+}
+
 /*  main colors... */
 /* rgba(20,15,73,1)
 rgba(53,161,205,1)

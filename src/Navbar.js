@@ -2,14 +2,13 @@ import React, { Component } from 'react';
 import { withStyles } from '@material-ui/styles';
 import styles from './styles/NavbarStyles.css';
 import CV from './media/YunChungCV.pdf';
+import logo from './media/logo.png';
 
 class Navbar extends Component {
     render() {
         return (
             <div class='navbar navbar-expand-sm navbar-light navbar-lewagon main'>
-                <a class='navbar-brand' href='#top'>
-                    {/* "Logo" */}
-                </a>
+                <a class='navbar-brand' href='#top'><img class='navbar-logo' src={logo} alt="Logo" /></a>
                 <button
                     class='navbar-toggler'
                     type='button'
