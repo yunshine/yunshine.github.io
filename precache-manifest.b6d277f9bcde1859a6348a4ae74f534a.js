@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66d0add01e6a4528dc5872b44f713522",
+    "revision": "ff4dd8c83ee16f75ff983657e58f24ae",
     "url": "/index.html"
   },
   {
-    "revision": "2f4379b1b00330c05e2f",
-    "url": "/static/css/main.88e99f5a.chunk.css"
+    "revision": "d7ad51e9da84d5662105",
+    "url": "/static/css/main.2c8aa653.chunk.css"
   },
   {
-    "revision": "92ed8434b205778c93a1",
-    "url": "/static/js/2.c52af980.chunk.js"
+    "revision": "ac0ada20169297946653",
+    "url": "/static/js/2.313ede5c.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/static/js/2.c52af980.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.313ede5c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f4379b1b00330c05e2f",
-    "url": "/static/js/main.ac268ca5.chunk.js"
+    "revision": "d7ad51e9da84d5662105",
+    "url": "/static/js/main.108ce78c.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -36,16 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Cocktail3.9a3848c3.jpg"
   },
   {
-    "revision": "f9ca35424b89c7414591585bf92a7096",
-    "url": "/static/media/Collocafe1.f9ca3542.jpg"
+    "revision": "f9f9f5e106445b9b7e727e0a332e236f",
+    "url": "/static/media/Collocafe1.f9f9f5e1.jpg"
   },
   {
-    "revision": "c446092745674b274a3f228d7f8ed32d",
-    "url": "/static/media/Collocafe2.c4460927.jpg"
+    "revision": "57ae2b70f11d13032889ab0f3b406012",
+    "url": "/static/media/Collocafe2.57ae2b70.jpg"
   },
   {
-    "revision": "a91d36b8393bdaddcc1bf435a68f6c5a",
-    "url": "/static/media/Collocafe3.a91d36b8.jpg"
+    "revision": "dae901a133168721042a74ad5ed1cedd",
+    "url": "/static/media/Collocafe3.dae901a1.jpg"
   },
   {
     "revision": "7dce0101d1fbaa489238a8b37468e27d",
@@ -66,5 +66,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2f43fb6a19c08b2b12b8b7d5c792b21c",
     "url": "/static/media/YunChungProfile.2f43fb6a.jpeg"
+  },
+  {
+    "revision": "05cfc6e5ec8a22eaec1dff719cdf6498",
+    "url": "/static/media/logo.05cfc6e5.png"
   }
 ]);
