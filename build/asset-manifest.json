@@ -1,33 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.88e99f5a.chunk.css",
-    "main.js": "/static/js/main.ac268ca5.chunk.js",
-    "main.js.map": "/static/js/main.ac268ca5.chunk.js.map",
+    "main.css": "/static/css/main.2c8aa653.chunk.css",
+    "main.js": "/static/js/main.108ce78c.chunk.js",
+    "main.js.map": "/static/js/main.108ce78c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.c52af980.chunk.js": "/static/js/2.c52af980.chunk.js",
-    "static/js/2.c52af980.chunk.js.map": "/static/js/2.c52af980.chunk.js.map",
+    "static/js/2.313ede5c.chunk.js": "/static/js/2.313ede5c.chunk.js",
+    "static/js/2.313ede5c.chunk.js.map": "/static/js/2.313ede5c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b65296082756db9d1411fdcc20c4bbf6.js": "/precache-manifest.b65296082756db9d1411fdcc20c4bbf6.js",
+    "precache-manifest.b6d277f9bcde1859a6348a4ae74f534a.js": "/precache-manifest.b6d277f9bcde1859a6348a4ae74f534a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.88e99f5a.chunk.css.map": "/static/css/main.88e99f5a.chunk.css.map",
-    "static/js/2.c52af980.chunk.js.LICENSE.txt": "/static/js/2.c52af980.chunk.js.LICENSE.txt",
+    "static/css/main.2c8aa653.chunk.css.map": "/static/css/main.2c8aa653.chunk.css.map",
+    "static/js/2.313ede5c.chunk.js.LICENSE.txt": "/static/js/2.313ede5c.chunk.js.LICENSE.txt",
     "static/media/Cocktail1.jpg": "/static/media/Cocktail1.a7f49e58.jpg",
     "static/media/Cocktail2.jpg": "/static/media/Cocktail2.206cb210.jpg",
     "static/media/Cocktail3.jpg": "/static/media/Cocktail3.9a3848c3.jpg",
-    "static/media/Collocafe1.jpg": "/static/media/Collocafe1.f9ca3542.jpg",
-    "static/media/Collocafe2.jpg": "/static/media/Collocafe2.c4460927.jpg",
-    "static/media/Collocafe3.jpg": "/static/media/Collocafe3.a91d36b8.jpg",
+    "static/media/Collocafe1.jpg": "/static/media/Collocafe1.f9f9f5e1.jpg",
+    "static/media/Collocafe2.jpg": "/static/media/Collocafe2.57ae2b70.jpg",
+    "static/media/Collocafe3.jpg": "/static/media/Collocafe3.dae901a1.jpg",
     "static/media/OneBite1.jpg": "/static/media/OneBite1.7dce0101.jpg",
     "static/media/OneBite2.jpg": "/static/media/OneBite2.21262028.jpg",
     "static/media/OneBite3.jpg": "/static/media/OneBite3.3c157bd9.jpg",
     "static/media/YunChungCV.pdf": "/static/media/YunChungCV.00f7b120.pdf",
-    "static/media/YunChungProfile.jpeg": "/static/media/YunChungProfile.2f43fb6a.jpeg"
+    "static/media/YunChungProfile.jpeg": "/static/media/YunChungProfile.2f43fb6a.jpeg",
+    "static/media/logo.png": "/static/media/logo.05cfc6e5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.c52af980.chunk.js",
-    "static/css/main.88e99f5a.chunk.css",
-    "static/js/main.ac268ca5.chunk.js"
+    "static/js/2.313ede5c.chunk.js",
+    "static/css/main.2c8aa653.chunk.css",
+    "static/js/main.108ce78c.chunk.js"
   ]
 }
