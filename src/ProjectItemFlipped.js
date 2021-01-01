@@ -82,8 +82,8 @@ class ProjectItemFlipped extends Component {
                     <div>
                         <h2>{this.props.name}</h2>
                         <div className={classes.buttonsDiv}>
-                            <a href={this.props.url}>Visit Site</a>
-                            <a href={this.props.github}>Visit GitHub</a>
+                            <a href={this.props.url} target="_blank">Visit Site</a>
+                            <a href={this.props.github} target="_blank">Visit GitHub</a>
                         </div>
                         <p>{this.props.description}</p>
                         <h5>Built using:</h5>

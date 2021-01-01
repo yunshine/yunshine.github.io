@@ -65,13 +65,14 @@ class Navbar extends Component {
                                     <a
                                         class='dropdown-item'
                                         href='https://www.linkedin.com/in/yunchungdev/'
+                                        target="_blank"
                                     >
                                         <i class='fab fa-linkedin'> LinkedIn</i>
                                     </a>
                                 </div>
 
                                 <div class='contact-dropdown-link'>
-                                    <a class='dropdown-item' href='https://github.com/yunshine'>
+                                    <a class='dropdown-item' href='https://github.com/yunshine' target="_blank">
                                         <i class='fab fa-github'> GitHub</i>
                                     </a>
                                 </div>
