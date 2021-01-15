@@ -3,15 +3,18 @@ import ProjectItem from './ProjectItem';
 import ProjectItemFlipped from './ProjectItemFlipped';
 import { withStyles } from '@material-ui/styles';
 import styles from './styles/WorkStyles';
-import Cocktail1 from './media/Cocktail1.jpg';
-import Cocktail2 from './media/Cocktail2.jpg';
-import Cocktail3 from './media/Cocktail3.jpg';
+import DishDev1 from './media/DishDev1.jpg';
+import DishDev2 from './media/DishDev2.jpg';
+import DishDev3 from './media/DishDev3.jpg';
 import Collocafe1 from './media/Collocafe1.jpg';
 import Collocafe2 from './media/Collocafe2.jpg';
 import Collocafe3 from './media/Collocafe3.jpg';
 import OneBite1 from './media/OneBite1.jpg';
 import OneBite2 from './media/OneBite2.jpg';
 import OneBite3 from './media/OneBite3.jpg';
+import Cocktail1 from './media/Cocktail1.jpg';
+import Cocktail2 from './media/Cocktail2.jpg';
+import Cocktail3 from './media/Cocktail3.jpg';
 
 class Work extends Component {
     render() {
@@ -24,6 +27,18 @@ class Work extends Component {
                     <h2>My Work</h2>
                 </div>
                 <ProjectItem
+                    name={'DishDev'}
+                    photo1={DishDev1}
+                    photo2={DishDev2}
+                    photo3={DishDev3}
+                    url={'https://dishdev.netlify.app/'}
+                    github={'https://github.com/yunshine/DishDev'}
+                    description="lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+                    tech1={['React', 'Node.js', 'Express', 'MongoDB']}
+                    tech2={['JavaScript', 'HTML', 'CSS', 'API']}
+                />
+                <hr className={classes.HR}></hr>
+                <ProjectItemFlipped
                     name={'Collocafe'}
                     photo1={Collocafe1}
                     photo2={Collocafe2}
@@ -35,7 +50,7 @@ class Work extends Component {
                     tech2={['JavaScript', 'HTML', 'CSS', 'API']}
                 />
                 <hr className={classes.HR}></hr>
-                <ProjectItemFlipped
+                <ProjectItem
                     name={'Rails Cocktail Recipes'}
                     photo1={Cocktail1}
                     photo2={Cocktail2}
@@ -47,7 +62,7 @@ class Work extends Component {
                     tech2={['Bootstrap', 'PostGreSQL']}
                 />
                 <hr className={classes.HR}></hr>
-                <ProjectItem
+                <ProjectItemFlipped
                     name={'OneBite'}
                     photo1={OneBite1}
                     photo2={OneBite2}
