@@ -60,6 +60,7 @@ class Navbar extends Component {
                                         <i class='far fa-envelope'> yun.chung@mac.com</i>
                                     </a>
                                 </div>
+                                <hr></hr>
 
                                 <div class='contact-dropdown-link'>
                                     <a
@@ -70,6 +71,7 @@ class Navbar extends Component {
                                         <i class='fab fa-linkedin'> LinkedIn</i>
                                     </a>
                                 </div>
+                                <hr></hr>
 
                                 <div class='contact-dropdown-link'>
                                     <a class='dropdown-item' href='https://github.com/yunshine' target="_blank">

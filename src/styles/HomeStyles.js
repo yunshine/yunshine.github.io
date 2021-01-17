@@ -43,8 +43,8 @@ export default {
     HomeLeft: {
         width: '60%',
         // border: '1px solid black',
-        marginTop: '72px',
-        paddingBottom: '48px',
+        marginTop: '32px',
+        paddingBottom: '32px',
         '& h2': {
             lineHeight: '95%',
         },
@@ -64,7 +64,7 @@ export default {
         },
     },
     HomeRight: {
-        marginTop: '56px',
+        marginTop: '16px',
         padding: '16px 0px',
         width: '40%',
         borderRadius: '2px',

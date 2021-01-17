@@ -1,9 +1,11 @@
 .main {
+    /* height: 56px; */
   background-color: rgba(254, 254, 254, 1);
+  /* background-color: red; */
   font-family: Raleway, Arial, Helvetica, sans-serif !important;
   font-size: 20px;
   font-weight: 550;
-  padding: 16px 10vw;
+  padding: 8px 10vw;
   position: sticky;
   z-index: 10;
   top: 0;
@@ -14,6 +16,22 @@
   .main {
       padding: 16px 16px;
   }
+}
+
+.navbar-brand {
+/* height: 8px; */
+padding: 0;
+margin: 0;
+/* object-fit: cover; */
+}
+
+.navbar-logo {
+height: 4px;
+height: 4px;
+padding: 0;
+margin: 0;
+object-fit: cover;
+border-radius: 32px;
 }
 
 .navbar-lewagon {
@@ -30,5 +48,10 @@ a {
 
 a:hover {
   color: rgba(53, 161, 205, 1) !important;
+}
+
+hr {
+    padding: 0;
+    margin: 10px 0;
 }
 
