@@ -12,13 +12,13 @@ class Footer extends Component {
                     <a href='mailto:yun.chung@mac.com'>
                         <i class='far fa-envelope'></i>
                     </a>
-                    <a href='https://www.linkedin.com/in/yunchungio/' target="_blank">
+                    <a href='https://www.linkedin.com/in/yunchungio/' target="_blank" rel="noopener noreferrer">
                         <i class='fab fa-linkedin'></i>
                     </a>
-                    <a href='https://github.com/yunshine' target="_blank">
+                    <a href='https://github.com/yunshine' target="_blank" rel="noopener noreferrer">
                         <i class='fab fa-github'></i>
                     </a>
-                    <a href='https://www.instagram.com/yun.chung/' target="_blank">
+                    <a href='https://www.instagram.com/yun.chung/' target="_blank" rel="noopener noreferrer">
                         <i class='fab fa-instagram'></i>
                     </a>
                 </div>

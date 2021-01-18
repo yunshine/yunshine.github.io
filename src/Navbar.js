@@ -67,6 +67,7 @@ class Navbar extends Component {
                                         class='dropdown-item'
                                         href='https://www.linkedin.com/in/yunchungdev/'
                                         target="_blank"
+                                        rel="noopener noreferrer"
                                     >
                                         <i class='fab fa-linkedin'> LinkedIn</i>
                                     </a>
@@ -74,7 +75,7 @@ class Navbar extends Component {
                                 <hr></hr>
 
                                 <div class='contact-dropdown-link'>
-                                    <a class='dropdown-item' href='https://github.com/yunshine' target="_blank">
+                                    <a class='dropdown-item' href='https://github.com/yunshine' target="_blank" rel="noopener noreferrer">
                                         <i class='fab fa-github'> GitHub</i>
                                     </a>
                                 </div>
