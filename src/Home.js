@@ -120,7 +120,7 @@ class Home extends Component {
                         </div>
                         <div className={classes.skillsListBox}>
                             <div>
-                                <i class='fas fa-palette'></i>
+                                <i class="devicon-materialui-plain"></i>
                             </div>
                             <span className={classes.liText}>Material-UI</span>
                         </div>
