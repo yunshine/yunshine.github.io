@@ -41,11 +41,10 @@ class Home extends Component {
                         </div>
 
                         <div className={classes.skillsListBox}>
-                            <div className={classes.deviconDiv}>
-                                <i class='devicon-nodejs-plain'></i>
+                            <div className={classes.devicon}>
+                                <i class="devicon-typescript-plain"></i>
                             </div>
-                            {/* <span className={classes.liText}>jQuery</span> */}
-                            <span className={classes.liText}>Node.js</span>
+                            <span className={classes.liText}>TypeScript</span>
                         </div>
                     </div>
 
@@ -62,6 +61,24 @@ class Home extends Component {
                                 <i class='devicon-express-original'></i>
                             </div>
                             <span className={classes.liText}>Express</span>
+                        </div>
+                    </div>
+
+                    <div className={classes.skillsListRow}>
+                        <div className={classes.skillsListBox}>
+                            <div className={classes.deviconDiv}>
+                                <i class='devicon-nodejs-plain'></i>
+                            </div>
+                            {/* <span className={classes.liText}>jQuery</span> */}
+                            <span className={classes.liText}>Node.js</span>
+                        </div>
+
+                        <div className={classes.skillsListBox}>
+                            <div className={classes.devicon}>
+                                <i class='devicon-jquery-plain'></i>
+                            </div>
+                            {/* <span className={classes.liText}>Node.js</span> */}
+                            <span className={classes.liText}>jQuery</span>
                         </div>
                     </div>
 
@@ -123,15 +140,15 @@ class Home extends Component {
                         </div>
                     </div>
 
-                    <div className={classes.skillsListRow}>
-                        <div className={classes.skillsListBox}>
-                            <div className={classes.devicon}>
-                                <i class='devicon-jquery-plain'></i>
-                            </div>
-                            {/* <span className={classes.liText}>Node.js</span> */}
-                            <span className={classes.liText}>jQuery</span>
-                        </div>
-                    </div>
+                    {/* <div className={classes.skillsListRow}> */}
+                    {/* <div className={classes.skillsListBox}> */}
+                    {/* <div className={classes.devicon}> */}
+                    {/* <i class='devicon-jquery-plain'></i> */}
+                    {/* </div> */}
+                    {/* <span className={classes.liText}>Node.js</span> */}
+                    {/* <span className={classes.liText}>jQuery</span> */}
+                    {/* </div> */}
+                    {/* </div> */}
                 </div>
             </div>
         );
