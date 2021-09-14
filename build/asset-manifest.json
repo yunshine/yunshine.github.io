@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1024ee5b.chunk.css",
-    "main.js": "/static/js/main.ba814156.chunk.js",
-    "main.js.map": "/static/js/main.ba814156.chunk.js.map",
+    "main.css": "/static/css/main.8091bb13.chunk.css",
+    "main.js": "/static/js/main.8ec6a236.chunk.js",
+    "main.js.map": "/static/js/main.8ec6a236.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.8226ef8f.chunk.js": "/static/js/2.8226ef8f.chunk.js",
-    "static/js/2.8226ef8f.chunk.js.map": "/static/js/2.8226ef8f.chunk.js.map",
+    "static/js/2.6e4ddf75.chunk.js": "/static/js/2.6e4ddf75.chunk.js",
+    "static/js/2.6e4ddf75.chunk.js.map": "/static/js/2.6e4ddf75.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f012572449e9112a9fb743c6e50cbd3e.js": "/precache-manifest.f012572449e9112a9fb743c6e50cbd3e.js",
+    "precache-manifest.024129681fff8c5aa5e94a74857c5bce.js": "/precache-manifest.024129681fff8c5aa5e94a74857c5bce.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.1024ee5b.chunk.css.map": "/static/css/main.1024ee5b.chunk.css.map",
-    "static/js/2.8226ef8f.chunk.js.LICENSE.txt": "/static/js/2.8226ef8f.chunk.js.LICENSE.txt",
+    "static/css/main.8091bb13.chunk.css.map": "/static/css/main.8091bb13.chunk.css.map",
+    "static/js/2.6e4ddf75.chunk.js.LICENSE.txt": "/static/js/2.6e4ddf75.chunk.js.LICENSE.txt",
     "static/media/Cocktail1.jpg": "/static/media/Cocktail1.a7f49e58.jpg",
     "static/media/Cocktail2.jpg": "/static/media/Cocktail2.206cb210.jpg",
     "static/media/Cocktail3.jpg": "/static/media/Cocktail3.9a3848c3.jpg",
@@ -24,14 +24,16 @@
     "static/media/OneBite1.jpg": "/static/media/OneBite1.7dce0101.jpg",
     "static/media/OneBite2.jpg": "/static/media/OneBite2.21262028.jpg",
     "static/media/OneBite3.jpg": "/static/media/OneBite3.3c157bd9.jpg",
+    "static/media/PlateRate1.jpg": "/static/media/PlateRate1.d595ae68.jpg",
+    "static/media/Sorry.jpg": "/static/media/Sorry.54caf0f9.jpg",
     "static/media/YunChungCV.pdf": "/static/media/YunChungCV.e6c9174c.pdf",
     "static/media/YunChungProfile.jpeg": "/static/media/YunChungProfile.2f43fb6a.jpeg",
     "static/media/logo.png": "/static/media/logo.05cfc6e5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.8226ef8f.chunk.js",
-    "static/css/main.1024ee5b.chunk.css",
-    "static/js/main.ba814156.chunk.js"
+    "static/js/2.6e4ddf75.chunk.js",
+    "static/css/main.8091bb13.chunk.css",
+    "static/js/main.8ec6a236.chunk.js"
   ]
 }
