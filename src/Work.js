@@ -44,12 +44,11 @@ class Work extends Component {
                 <ProjectItemFlippedPlateRate
                     name={'PlateRate'}
                     photo1={PlateRate1}
-                    photo2={Collocafe2}
-                    photo3={Collocafe3}
-                    url={'https://platerate.com/'}
-                    message={'message here...'}
-                    description="A Node.js, Express, and MongoDB CRUD app that allows users to share and dialogue about some of the best cafes in Tokyo."
-                    tech1={['Node.js', 'Express', 'MongoDB', 'Bootstrap']}
+                    photo2={PlateRate1}
+                    photo3={PlateRate1}
+                    workingUrl={'https://platerate.com/'}
+                    description="A MERN Stack app where users can find, rate, and share their favorite dishes and restaurants."
+                    tech1={['React', 'Node.js', 'Express', 'MongoDB']}
                     tech2={['JavaScript', 'HTML', 'CSS', 'API']}
                 />
                 <hr className={classes.HR}></hr>
@@ -61,7 +60,7 @@ class Work extends Component {
                     url={'https://collocafe.herokuapp.com/'}
                     github={'https://github.com/yunshine/Collocafe'}
                     description="A Node.js, Express, and MongoDB CRUD app that allows users to share and dialogue about some of the best cafes in Tokyo."
-                    tech1={['React', 'Node.js', 'Express', 'MongoDB']}
+                    tech1={['Node.js', 'Express', 'MongoDB', 'Bootstrap']}
                     tech2={['JavaScript', 'HTML', 'CSS', 'API']}
                 />
                 <hr className={classes.HR}></hr>
@@ -82,8 +81,7 @@ class Work extends Component {
                     photo1={OneBite1}
                     photo2={OneBite2}
                     photo3={OneBite3}
-                    url={'http://onebite.fun/'}
-                    github={'https://github.com/yunshine/OneBite'}
+                    workingUrl={'https://github.com/yunshine/OneBite'}
                     description='OneBite is a Ruby on Rails app that allows users to search for online courses, schedule lessons into their personal calendar, and track their progress.'
                     tech1={['Ruby on Rails', 'Ruby', 'HTML', 'CSS']}
                     tech2={['Bootstrap', 'PostGreSQL']}

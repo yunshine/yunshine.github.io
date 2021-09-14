@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { withStyles } from '@material-ui/styles';
 import styles from './styles/ProjectItemFlippedStyles';
 
@@ -82,8 +83,8 @@ class ProjectItemFlipped extends Component {
                     <div>
                         <h2>{this.props.name}</h2>
                         <div className={classes.buttonsDiv}>
-                            <a href={this.props.url} target="_blank" rel="noopener noreferrer">Visit Site</a>
-                            <a href={this.props.github} target="_blank" rel="noopener noreferrer">Visit GitHub</a>
+                            <a href={this.props.workingUrl} target="_blank" rel="noopener noreferrer">Visit Site</a>
+                            <Link to={'/platerate'} target="_blank" rel="noopener noreferrer">Visit GitHub</Link>
                         </div>
                         <p>{this.props.description}</p>
                         <h5>Built using:</h5>
