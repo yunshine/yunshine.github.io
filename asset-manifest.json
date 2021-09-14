@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.8091bb13.chunk.css",
-    "main.js": "/static/js/main.8ec6a236.chunk.js",
-    "main.js.map": "/static/js/main.8ec6a236.chunk.js.map",
+    "main.js": "/static/js/main.ebf27051.chunk.js",
+    "main.js.map": "/static/js/main.ebf27051.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.6e4ddf75.chunk.js": "/static/js/2.6e4ddf75.chunk.js",
-    "static/js/2.6e4ddf75.chunk.js.map": "/static/js/2.6e4ddf75.chunk.js.map",
+    "static/js/2.11ada25e.chunk.js": "/static/js/2.11ada25e.chunk.js",
+    "static/js/2.11ada25e.chunk.js.map": "/static/js/2.11ada25e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.024129681fff8c5aa5e94a74857c5bce.js": "/precache-manifest.024129681fff8c5aa5e94a74857c5bce.js",
+    "precache-manifest.4e83b5e4be165bbcf117cce1fa868129.js": "/precache-manifest.4e83b5e4be165bbcf117cce1fa868129.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.8091bb13.chunk.css.map": "/static/css/main.8091bb13.chunk.css.map",
-    "static/js/2.6e4ddf75.chunk.js.LICENSE.txt": "/static/js/2.6e4ddf75.chunk.js.LICENSE.txt",
+    "static/js/2.11ada25e.chunk.js.LICENSE.txt": "/static/js/2.11ada25e.chunk.js.LICENSE.txt",
     "static/media/Cocktail1.jpg": "/static/media/Cocktail1.a7f49e58.jpg",
     "static/media/Cocktail2.jpg": "/static/media/Cocktail2.206cb210.jpg",
     "static/media/Cocktail3.jpg": "/static/media/Cocktail3.9a3848c3.jpg",
@@ -25,6 +25,8 @@
     "static/media/OneBite2.jpg": "/static/media/OneBite2.21262028.jpg",
     "static/media/OneBite3.jpg": "/static/media/OneBite3.3c157bd9.jpg",
     "static/media/PlateRate1.jpg": "/static/media/PlateRate1.d595ae68.jpg",
+    "static/media/PlateRate2.jpg": "/static/media/PlateRate2.dec0584d.jpg",
+    "static/media/PlateRate3.jpg": "/static/media/PlateRate3.9a1ccdbb.jpg",
     "static/media/Sorry.jpg": "/static/media/Sorry.54caf0f9.jpg",
     "static/media/YunChungCV.pdf": "/static/media/YunChungCV.e6c9174c.pdf",
     "static/media/YunChungProfile.jpeg": "/static/media/YunChungProfile.2f43fb6a.jpeg",
@@ -32,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.6e4ddf75.chunk.js",
+    "static/js/2.11ada25e.chunk.js",
     "static/css/main.8091bb13.chunk.css",
-    "static/js/main.8ec6a236.chunk.js"
+    "static/js/main.ebf27051.chunk.js"
   ]
 }
