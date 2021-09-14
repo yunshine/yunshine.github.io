@@ -9,6 +9,8 @@ import DishDev1 from './media/DishDev1.jpg';
 import DishDev2 from './media/DishDev2.jpg';
 import DishDev3 from './media/DishDev3.jpg';
 import PlateRate1 from './media/PlateRate1.jpg';
+import PlateRate2 from './media/PlateRate2.jpg';
+import PlateRate3 from './media/PlateRate3.jpg';
 import Collocafe1 from './media/Collocafe1.jpg';
 import Collocafe2 from './media/Collocafe2.jpg';
 import Collocafe3 from './media/Collocafe3.jpg';
@@ -44,8 +46,8 @@ class Work extends Component {
                 <ProjectItemFlippedPlateRate
                     name={'PlateRate'}
                     photo1={PlateRate1}
-                    photo2={PlateRate1}
-                    photo3={PlateRate1}
+                    photo2={PlateRate2}
+                    photo3={PlateRate3}
                     workingUrl={'https://platerate.com/'}
                     description="An app where users can find, rate, and share their favorite dishes and restaurants. Built using the MERN stack."
                     tech1={['React', 'Node.js', 'Express', 'MongoDB']}
