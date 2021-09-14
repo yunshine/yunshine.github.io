@@ -19,16 +19,14 @@ class About extends Component {
                     <div className={classes.AboutRight}>
                         <h2>Hi! I'm Yun.</h2>
                         <p>
-                            I'm a recent graduate of Le Wagon (Tokyo), the highest-rated
-                            coding bootcamp in the world.
-            </p>
+                            I’m a junior full stack developer specializing in React and Express, and a recent graduate of Le Wagon (Tokyo), the highest rated bootcamp in the world.
+                        </p>
                         <p>
-                            I'm currently looking for a position as a full stack web
-                            developer. Technology fascinates me, so an ideal environment for
-                            me would be a place where I can learn, develop my skills, and make
-                            a meaningful contribution towards building useful products each
-                            and every day.
-            </p>
+                            I love what I do because I get to develop products and features that create solutions for our users. Plus, I get to do it in an environment where I can learn, be stretched, and grow as a developer.
+                        </p>
+                        <p>
+                            I’m interested in finding a position where I can continue to learn and grow as a developer, show my potential and talent, and contribute my skills towards creating innovative solutions that allow users to achieve success.
+                        </p>
                     </div>
                 </div>
             </div>

@@ -47,7 +47,7 @@ class Work extends Component {
                     photo2={PlateRate1}
                     photo3={PlateRate1}
                     workingUrl={'https://platerate.com/'}
-                    description="A MERN Stack app where users can find, rate, and share their favorite dishes and restaurants."
+                    description="An app where users can find, rate, and share their favorite dishes and restaurants. Built using the MERN stack."
                     tech1={['React', 'Node.js', 'Express', 'MongoDB']}
                     tech2={['JavaScript', 'HTML', 'CSS', 'API']}
                 />
