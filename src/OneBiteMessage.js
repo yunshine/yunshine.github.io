@@ -12,7 +12,7 @@ export default function OneBiteMessage() {
 
             <div class="container message-div">
                 <img src={Sorry} alt="A sticky-note with 'sorry' written on it." class="img-fluid rounded mx-auto d-block" />
-                <p class="mt-3">testing... platerate...</p>
+                <p class="mt-3">testing... onebite...</p>
             </div>
 
             <div className="message-footer">

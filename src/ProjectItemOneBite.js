@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { withStyles } from '@material-ui/styles';
 import styles from './styles/ProjectItemStyles';
 
@@ -82,7 +83,7 @@ class ProjectItem extends Component {
                     <div>
                         <h2>{this.props.name}</h2>
                         <div className={classes.buttonsDiv}>
-                            <a to={'/onebite'} target="_blank" rel="noopener noreferrer" message={this.props.message}>Visit Site</a>
+                            <Link to={'/onebite'} target="_blank" rel="noopener noreferrer">Visit Site</Link>
                             <a href={this.props.workingUrl} target="_blank" rel="noopener noreferrer">Visit GitHub</a>
                         </div>
                         <p>{this.props.description}</p>

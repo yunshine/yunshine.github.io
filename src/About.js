@@ -22,10 +22,10 @@ class About extends Component {
                             I’m a junior full stack developer specializing in React and Express, and a recent graduate of Le Wagon (Tokyo), the highest rated bootcamp in the world.
                         </p>
                         <p>
-                            I love what I do because I get to develop products and features that create solutions for our users. Plus, I get to do it in an environment where I can learn, be stretched, and grow as a developer.
+                            I love my job because I get to develop products and features that create solutions for our users. Plus, I get to do it in an environment where I can learn, be stretched, and grow as a developer.
                         </p>
                         <p>
-                            I’m interested in finding a position where I can continue to learn and grow as a developer, show my potential and talent, and contribute my skills towards creating innovative solutions that allow users to achieve success.
+                            I’m interested in finding opportunities where I can continue to learn and grow as a developer, show my potential and talent, and contribute my skills towards building products that benefit users.
                         </p>
                     </div>
                 </div>
