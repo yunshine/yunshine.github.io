@@ -11,8 +11,8 @@ export default function OneBiteMessage() {
             <Navbar />
 
             <div class="container message-div">
-                <img src={Sorry} alt="A sticky-note with 'sorry' written on it." class="img-fluid rounded mx-auto d-block" />
-                <p class="mt-3">testing... onebite...</p>
+                <img src={Sorry} alt="A sticky-note with 'sorry' written on it." class="img-fluid rounded mx-auto d-block message-div-img" />
+                <p class="mt-5"><span className="sorry-span">Sorry! </span>Unfortunately, OneBite is down. Its domain has not been renewed by its owner.</p>
             </div>
 
             <div className="message-footer">
