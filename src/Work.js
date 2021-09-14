@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import ProjectItem from './ProjectItem';
+import ProjectItemOneBite from './ProjectItemOneBite';
 import ProjectItemFlipped from './ProjectItemFlipped';
+import ProjectItemFlippedPlateRate from './ProjectItemFlippedPlateRate';
 import { withStyles } from '@material-ui/styles';
 import styles from './styles/WorkStyles';
 import DishDev1 from './media/DishDev1.jpg';
 import DishDev2 from './media/DishDev2.jpg';
 import DishDev3 from './media/DishDev3.jpg';
+import PlateRate1 from './media/PlateRate1.jpg';
 import Collocafe1 from './media/Collocafe1.jpg';
 import Collocafe2 from './media/Collocafe2.jpg';
 import Collocafe3 from './media/Collocafe3.jpg';
@@ -31,14 +34,26 @@ class Work extends Component {
                     photo1={DishDev1}
                     photo2={DishDev2}
                     photo3={DishDev3}
-                    url={'https://dishdev.netlify.app/'}
+                    url={'https://platerate.com/'}
                     github={'https://github.com/yunshine/DishDev'}
                     description="This MERN stack recipe organization app was primarily built to showcase my ability to develop with React and server-side APIs."
                     tech1={['React', 'Node.js', 'Express', 'MongoDB']}
                     tech2={['JavaScript', 'HTML', 'CSS', 'API']}
                 />
                 <hr className={classes.HR}></hr>
-                <ProjectItemFlipped
+                <ProjectItemFlippedPlateRate
+                    name={'PlateRate'}
+                    photo1={PlateRate1}
+                    photo2={Collocafe2}
+                    photo3={Collocafe3}
+                    url={'https://platerate.com/'}
+                    message={'message here...'}
+                    description="A Node.js, Express, and MongoDB CRUD app that allows users to share and dialogue about some of the best cafes in Tokyo."
+                    tech1={['Node.js', 'Express', 'MongoDB', 'Bootstrap']}
+                    tech2={['JavaScript', 'HTML', 'CSS', 'API']}
+                />
+                <hr className={classes.HR}></hr>
+                <ProjectItem
                     name={'Collocafe'}
                     photo1={Collocafe1}
                     photo2={Collocafe2}
@@ -46,11 +61,11 @@ class Work extends Component {
                     url={'https://collocafe.herokuapp.com/'}
                     github={'https://github.com/yunshine/Collocafe'}
                     description="A Node.js, Express, and MongoDB CRUD app that allows users to share and dialogue about some of the best cafes in Tokyo."
-                    tech1={['Node.js', 'Express', 'MongoDB', 'Bootstrap']}
+                    tech1={['React', 'Node.js', 'Express', 'MongoDB']}
                     tech2={['JavaScript', 'HTML', 'CSS', 'API']}
                 />
                 <hr className={classes.HR}></hr>
-                <ProjectItem
+                <ProjectItemFlipped
                     name={'Rails Cocktail Recipes'}
                     photo1={Cocktail1}
                     photo2={Cocktail2}
@@ -62,7 +77,7 @@ class Work extends Component {
                     tech2={['Bootstrap', 'PostGreSQL']}
                 />
                 <hr className={classes.HR}></hr>
-                <ProjectItemFlipped
+                <ProjectItemOneBite
                     name={'OneBite'}
                     photo1={OneBite1}
                     photo2={OneBite2}
