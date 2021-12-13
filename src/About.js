@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/styles';
 import styles from './styles/AboutStyles';
-import Yun from './media/YunChungProfile.jpeg';
+import Yun from './media/YunChungProfile2.jpg';
 
 class About extends Component {
     render() {
@@ -19,13 +19,13 @@ class About extends Component {
                     <div className={classes.AboutRight}>
                         <h2>Hi! I'm Yun.</h2>
                         <p>
-                            I’m a junior full stack developer specializing in React and Express, and a recent graduate of Le Wagon (Tokyo), the highest rated bootcamp in the world.
+                            I’m a full stack developer specializing in React.js, Express.js, Node.js, and REST APIs. I'm also a recent graduate of Le Wagon (Tokyo), the highest rated bootcamp in the world.
                         </p>
                         <p>
                             I love my job because I get to develop products and features that create solutions for our users. Plus, I get to do it in an environment where I can learn, be stretched, and grow as a developer.
                         </p>
                         <p>
-                            I’m interested in finding opportunities where I can continue to learn and grow as a developer, show my potential and talent, and contribute my skills towards building products that benefit users.
+                            I’m interested in finding new opportunities where I can continue to learn and grow as a developer, show my potential and talent, and contribute my skills towards building products that benefit users.
                         </p>
                     </div>
                 </div>
