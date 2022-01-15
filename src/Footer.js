@@ -7,7 +7,7 @@ class Footer extends Component {
         const { classes } = this.props;
         return (
             <div className={classes.Footer}>
-                <h5>© 2021 Yun Chung</h5>
+                <h5>© 2022 Yun Chung</h5>
                 <div className={classes.iconDiv}>
                     <a href='mailto:yun.chung@mac.com'>
                         <i class='far fa-envelope'></i>
