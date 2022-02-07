@@ -36,7 +36,7 @@ class Work extends Component {
                     photo1={DishDev1}
                     photo2={DishDev2}
                     photo3={DishDev3}
-                    url={'https://dishdev.netlify.app/'}
+                    url={'https://dishdev.netlify.app'}
                     github={'https://github.com/yunshine/DishDev'}
                     description="This MERN stack recipe organization app was primarily built to showcase my ability to develop with React and server-side APIs."
                     tech1={['React', 'Node.js', 'Express', 'MongoDB']}
